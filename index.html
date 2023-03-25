@@ -1,10 +1,33 @@
 <!DOCTYPE html>
-<html lang="eng" dir"Itr">
+<html>
+  <head>
+    <title>Dynamic Directory Change</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="loadPage('home')">Home</a></li>
+        <li><a href="#" onclick="loadPage('about')">About</a></li>
+        <li><a href="#" onclick="loadPage('contact')">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="content">
+      <h1>Welcome to my dynamic directory change page!</h1>
+      <p>Click one of the links above to change the directory dynamically.</p>
+    </div>
 
-<head>
-  <link rel="stylesheet" type="text/css" href "css/program.css">
-  <meta charset="utf-8">
-
-  <title>Programming developing portfolio</title>
-  <link rel="stylesheet" type="text/css" href "css/program.css">
-</head>
+    <script>
+      function loadPage(page) {
+        const xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("content").innerHTML = this.responseText;
+          }
+        };
+        xhttp.open("GET", page + ".html", true);
+        xhttp.send();
+      }
+    </script>
+  </body>
+</html>
