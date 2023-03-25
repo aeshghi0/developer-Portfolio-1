@@ -1,0 +1,124 @@
+/* Dark comic book theme */
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 2px solid #f43e47;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #f43e47;
+}
+
+main {
+  background-color: #222;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 50px;
+  padding: 30px;
+  border: 2px solid #f43e47;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+ul li a {
+  color: #f43e47;
+  font-size: 24px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+ul li a:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #f43e47;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  border: 1px solid #f43e47;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #111;
+  color: #fff;
+}
+
+button[type="submit"] {
+  background-color: #f43e47;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  background-color: #fff;
+  color: #f43e47;
+}
