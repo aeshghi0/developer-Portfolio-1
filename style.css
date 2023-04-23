@@ -36,3 +36,46 @@ nav a:hover {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+/*
+body {
+			background-image: url('your-background-image.jpg');
+			background-position: center center;
+			background-size: cover;
+			animation: movingBackground 20s linear infinite;
+		}
+
+@keyframes movingBackground {
+      from { background-position: 0 0; }
+			to { background-position: 100% 0; }
+		}
+*/
+    body {
+    			background-color: black;
+    			animation: movingBackground 20s linear infinite;
+    		}
+
+    		.dot {
+    			position: absolute;
+    			top: 50%;
+    			left: 50%;
+    			width: 10px;
+    			height: 10px;
+    			border-radius: 50%;
+    			background-color: white;
+    			transform-origin: 0 0;
+    			animation: moveDot 5s linear infinite;
+    		}
+
+    		@keyframes movingBackground {
+    			from { background-position: 0 0; }
+    			to { background-position: 100% 0; }
+    		}
+
+    		@keyframes moveDot {
+    			from {
+    				transform: translate(-50%, -50%) rotate(0deg) translateX(200px) rotate(0deg);
+    			}
+    			to {
+    				transform: translate(-50%, -50%) rotate(360deg) translateX(200px) rotate(-360deg);
+    			}
+    		}
