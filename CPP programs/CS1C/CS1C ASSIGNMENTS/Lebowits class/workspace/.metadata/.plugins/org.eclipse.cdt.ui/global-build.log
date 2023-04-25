@@ -1,0 +1,1106 @@
+18:38:27 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:1:
+../MyHeader.h:52:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:39:3: note: in instantiation of member function 'Queue<int>::dequeue' requested here
+d.dequeue();
+  ^
+../MyHeader.h:48:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0
+../MyHeader.h:52:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:57:3: note: in instantiation of member function 'Queue<double>::dequeue' requested here
+i.dequeue();
+  ^
+../MyHeader.h:48:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0.0
+2 warnings generated.
+Finished building: ../main.cpp
+ 
+Building target: Assignment 8
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 8"  ./main.o   
+Finished building target: Assignment 8
+ 
+18:38:36 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+make: Nothing to be done for `all'.
+18:50:04 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+make: Nothing to be done for `all'.
+18:52:44 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:1:
+../MyHeader.h:52:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:39:3: note: in instantiation of member function 'Queue<int>::dequeue' requested here
+d.dequeue();
+  ^
+../MyHeader.h:48:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0
+../MyHeader.h:52:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:57:3: note: in instantiation of member function 'Queue<double>::dequeue' requested here
+i.dequeue();
+  ^
+../MyHeader.h:48:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0.0
+2 warnings generated.
+Finished building: ../main.cpp
+ 
+Building target: Assignment 8
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 8"  ./main.o   
+Finished building target: Assignment 8
+ 
+18:53:46 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:1:
+../MyHeader.h:52:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:37:3: note: in instantiation of member function 'Queue<int>::dequeue' requested here
+d.dequeue();
+  ^
+../MyHeader.h:48:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0
+../MyHeader.h:52:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:55:3: note: in instantiation of member function 'Queue<double>::dequeue' requested here
+i.dequeue();
+  ^
+../MyHeader.h:48:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0.0
+2 warnings generated.
+Finished building: ../main.cpp
+ 
+Building target: Assignment 8
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 8"  ./main.o   
+Finished building target: Assignment 8
+ 
+18:56:47 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Assignment 8
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 8"  ./main.o   
+Finished building target: Assignment 8
+ 
+18:56:49 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+make: Nothing to be done for `all'.
+19:10:47 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:1:
+../MyHeader.h:52:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:41:3: note: in instantiation of member function 'Queue<int>::dequeue' requested here
+d.dequeue();
+  ^
+../MyHeader.h:48:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0
+1 warning generated.
+Finished building: ../main.cpp
+ 
+Building target: Assignment 8
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 8"  ./main.o   
+Finished building target: Assignment 8
+ 
+19:10:50 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+make: Nothing to be done for `all'.
+19:11:44 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:1:
+../MyHeader.h:52:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:59:3: note: in instantiation of member function 'Queue<double>::dequeue' requested here
+i.dequeue();
+  ^
+../MyHeader.h:48:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0.0
+1 warning generated.
+Finished building: ../main.cpp
+ 
+Building target: Assignment 8
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 8"  ./main.o   
+Finished building target: Assignment 8
+ 
+19:12:02 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:1:
+../MyHeader.h:52:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:59:3: note: in instantiation of member function 'Queue<double>::dequeue' requested here
+i.dequeue();
+  ^
+../MyHeader.h:48:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0.0
+1 warning generated.
+Finished building: ../main.cpp
+ 
+Building target: Assignment 8
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 8"  ./main.o   
+Finished building target: Assignment 8
+ 
+19:12:03 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+make: Nothing to be done for `all'.
+20:18:21 **** Build of configuration Debug for project Assignment 7 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:10:
+../MyHeader.h:138:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+Finished building: ../main.cpp
+ 
+Building target: Assignment 7
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 7"  ./main.o   
+Finished building target: Assignment 7
+ 
+20:18:28 **** Incremental Build of configuration Debug for project Assignment 7 ****
+make all 
+make: Nothing to be done for `all'.
+20:36:03 **** Incremental Build of configuration Debug for project Assignment 7 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:10:
+../MyHeader.h:138:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+Finished building: ../main.cpp
+ 
+Building target: Assignment 7
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 7"  ./main.o   
+Finished building target: Assignment 7
+ 
+20:39:30 **** Incremental Build of configuration Debug for project Assignment 7 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:10:
+../MyHeader.h:138:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+Finished building: ../main.cpp
+ 
+Building target: Assignment 7
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 7"  ./main.o   
+Finished building target: Assignment 7
+ 
+18:00:08 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:10:
+../MyHeader.h:65:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:88:3: note: in instantiation of member function 'Queue<int>::dequeue' requested here
+d.dequeue();
+  ^
+../MyHeader.h:61:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0
+../MyHeader.h:65:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:111:3: note: in instantiation of member function 'Queue<double>::dequeue' requested here
+i.dequeue();
+  ^
+../MyHeader.h:61:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0.0
+2 warnings generated.
+Finished building: ../main.cpp
+ 
+Building target: Assignment 8
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 8"  ./main.o   
+Finished building target: Assignment 8
+ 
+18:00:11 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+make: Nothing to be done for `all'.
+18:01:06 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:10:
+../MyHeader.h:65:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:88:3: note: in instantiation of member function 'Queue<int>::dequeue' requested here
+d.dequeue();
+  ^
+../MyHeader.h:61:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0
+../MyHeader.h:65:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:111:3: note: in instantiation of member function 'Queue<double>::dequeue' requested here
+i.dequeue();
+  ^
+../MyHeader.h:61:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0.0
+2 warnings generated.
+Finished building: ../main.cpp
+ 
+Building target: Assignment 8
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 8"  ./main.o   
+Finished building target: Assignment 8
+ 
+18:01:09 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+make: Nothing to be done for `all'.
+18:02:19 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:10:
+../MyHeader.h:85:2: warning: control reaches end of non-void function [-Wreturn-type]
+        }
+        ^
+../main.cpp:74:29: note: in instantiation of member function 'Queue<std::__1::basic_string<char> >::front' requested here
+cout<<"Front of queue: "<<q.front()<<"\n";
+                            ^
+In file included from ../main.cpp:10:
+../MyHeader.h:65:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:88:3: note: in instantiation of member function 'Queue<int>::dequeue' requested here
+d.dequeue();
+  ^
+../MyHeader.h:61:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0
+../MyHeader.h:85:2: warning: control reaches end of non-void function [-Wreturn-type]
+        }
+        ^
+../main.cpp:97:29: note: in instantiation of member function 'Queue<int>::front' requested here
+cout<<"Front of queue: "<<d.front()<<"\n";
+                            ^
+In file included from ../main.cpp:10:
+../MyHeader.h:65:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:111:3: note: in instantiation of member function 'Queue<double>::dequeue' requested here
+i.dequeue();
+  ^
+../MyHeader.h:61:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0.0
+../MyHeader.h:85:2: warning: control reaches end of non-void function [-Wreturn-type]
+        }
+        ^
+../main.cpp:121:29: note: in instantiation of member function 'Queue<double>::front' requested here
+cout<<"Front of queue: "<<i.front()<<"\n\n\n";
+                            ^
+5 warnings generated.
+Finished building: ../main.cpp
+ 
+Building target: Assignment 8
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 8"  ./main.o   
+Finished building target: Assignment 8
+ 
+18:02:45 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:10:
+../MyHeader.h:65:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:88:3: note: in instantiation of member function 'Queue<int>::dequeue' requested here
+d.dequeue();
+  ^
+../MyHeader.h:61:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0
+../MyHeader.h:65:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:111:3: note: in instantiation of member function 'Queue<double>::dequeue' requested here
+i.dequeue();
+  ^
+../MyHeader.h:61:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0.0
+2 warnings generated.
+Finished building: ../main.cpp
+ 
+Building target: Assignment 8
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 8"  ./main.o   
+Finished building target: Assignment 8
+ 
+18:03:46 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:10:
+../MyHeader.h:84:10: error: no viable conversion from returned value of type 'const char' to function return type 'std::__1::basic_string<char>'
+                return "\n"[frnt];
+                       ^~~~~~~~~~
+../main.cpp:74:29: note: in instantiation of member function 'Queue<std::__1::basic_string<char> >::front' requested here
+cout<<"Front of queue: "<<q.front()<<"\n";
+                            ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string:811:5: note: candidate constructor template not viable: no known conversion from 'const char' to 'const char *' for 1st argument; take the address of the argument with &
+    basic_string(const _CharT* __s) {
+    ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string:793:5: note: candidate constructor not viable: no known conversion from 'const char' to 'const std::__1::basic_string<char> &' for 1st argument
+    basic_string(const basic_string& __str);
+    ^
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:03:56 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:10:
+../MyHeader.h:84:10: error: use of undeclared identifier 's'
+                return s[frnt];
+                       ^
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:03:59 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:10:
+../MyHeader.h:65:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:88:3: note: in instantiation of member function 'Queue<int>::dequeue' requested here
+d.dequeue();
+  ^
+../MyHeader.h:61:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0
+../MyHeader.h:65:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:111:3: note: in instantiation of member function 'Queue<double>::dequeue' requested here
+i.dequeue();
+  ^
+../MyHeader.h:61:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0.0
+2 warnings generated.
+Finished building: ../main.cpp
+ 
+Building target: Assignment 8
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 8"  ./main.o   
+Finished building target: Assignment 8
+ 
+18:04:03 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+make: Nothing to be done for `all'.
+18:04:09 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+make: Nothing to be done for `all'.
+18:04:13 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+make: Nothing to be done for `all'.
+18:05:58 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:10:
+../MyHeader.h:65:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:88:3: note: in instantiation of member function 'Queue<int>::dequeue' requested here
+d.dequeue();
+  ^
+../MyHeader.h:61:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0
+../MyHeader.h:65:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:111:3: note: in instantiation of member function 'Queue<double>::dequeue' requested here
+i.dequeue();
+  ^
+../MyHeader.h:61:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0.0
+2 warnings generated.
+Finished building: ../main.cpp
+ 
+Building target: Assignment 8
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 8"  ./main.o   
+Finished building target: Assignment 8
+ 
+17:08:10 **** Build of configuration Debug for project Assignment 10 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Assignment 10
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 10"  ./main.o   
+Finished building target: Assignment 10
+ 
+17:08:27 **** Incremental Build of configuration Debug for project Assignment 10 ****
+make all 
+make: Nothing to be done for `all'.
+17:19:14 **** Incremental Build of configuration Debug for project Assignment 10 ****
+make all 
+make: Nothing to be done for `all'.
+17:19:17 **** Incremental Build of configuration Debug for project Assignment 10 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Assignment 10
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 10"  ./main.o   
+Finished building target: Assignment 10
+ 
+17:19:20 **** Incremental Build of configuration Debug for project Assignment 10 ****
+make all 
+make: Nothing to be done for `all'.
+17:20:07 **** Incremental Build of configuration Debug for project Assignment 10 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Assignment 10
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 10"  ./main.o   
+Finished building target: Assignment 10
+ 
+17:20:09 **** Incremental Build of configuration Debug for project Assignment 10 ****
+make all 
+make: Nothing to be done for `all'.
+17:20:43 **** Incremental Build of configuration Debug for project Assignment 10 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Assignment 10
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 10"  ./main.o   
+Finished building target: Assignment 10
+ 
+17:20:45 **** Incremental Build of configuration Debug for project Assignment 10 ****
+make all 
+make: Nothing to be done for `all'.
+17:21:24 **** Incremental Build of configuration Debug for project Assignment 10 ****
+make all 
+make: Nothing to be done for `all'.
+17:27:34 **** Incremental Build of configuration Debug for project Assignment 10 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Assignment 10
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 10"  ./main.o   
+Finished building target: Assignment 10
+ 
+17:27:36 **** Incremental Build of configuration Debug for project Assignment 10 ****
+make all 
+make: Nothing to be done for `all'.
+17:33:08 **** Incremental Build of configuration Debug for project Assignment 10 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Assignment 10
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 10"  ./main.o   
+Finished building target: Assignment 10
+ 
+17:33:11 **** Incremental Build of configuration Debug for project Assignment 10 ****
+make all 
+make: Nothing to be done for `all'.
+17:35:17 **** Incremental Build of configuration Debug for project Assignment 10 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Assignment 10
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 10"  ./main.o   
+Finished building target: Assignment 10
+ 
+17:36:35 **** Incremental Build of configuration Debug for project Assignment 10 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Assignment 10
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 10"  ./main.o   
+Finished building target: Assignment 10
+ 
+17:59:11 **** Incremental Build of configuration Debug for project Assignment 10 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Assignment 10
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 10"  ./main.o   
+Finished building target: Assignment 10
+ 
+17:59:14 **** Incremental Build of configuration Debug for project Assignment 10 ****
+make all 
+make: Nothing to be done for `all'.
+22:36:17 **** Build of configuration Debug for project Assignment 12 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:5:2: error: unknown type name 'string'; did you mean 'std::string'?
+        string date;
+        ^~~~~~
+        std::string
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iosfwd:194:65: note: 'std::string' declared here
+typedef basic_string<char, char_traits<char>, allocator<char> > string;
+                                                                ^
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:36:41 **** Incremental Build of configuration Debug for project Assignment 12 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Assignment 12
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 12"  ./main.o   
+Finished building target: Assignment 12
+ 
+22:49:03 **** Incremental Build of configuration Debug for project Assignment 12 ****
+make all 
+Building file: ../functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"functions.d" -MT"functions.o" -o "functions.o" "../functions.cpp"
+Finished building: ../functions.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:17:2: error: no matching function for call to 'readFromFile'
+        readFromFile(inFile1);
+        ^~~~~~~~~~~~
+../Header.h:15:6: note: candidate function not viable: no known conversion from 'std::__1::ifstream' (aka 'basic_ifstream<char>') to 'std::__1::fstream' (aka 'basic_fstream<char>') for 1st argument
+void readFromFile(fstream iFile);
+     ^
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:49:58 **** Incremental Build of configuration Debug for project Assignment 12 ****
+make all 
+Building file: ../functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"functions.d" -MT"functions.o" -o "functions.o" "../functions.cpp"
+Finished building: ../functions.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:1:
+In file included from ../Header.h:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iostream:39:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/streambuf:493:64: error: base class 'std::__1::ios_base' has private copy constructor
+_LIBCPP_EXTERN_TEMPLATE(class _LIBCPP_EXTERN_TEMPLATE_TYPE_VIS basic_ios<char>)
+                                                               ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iosfwd:131:32: note: in implicit copy constructor for 'std::__1::basic_ios<char>' first required here
+    class _LIBCPP_TEMPLATE_VIS basic_ifstream;
+                               ^
+../main.cpp:17:15: note: in implicit copy constructor for 'std::__1::basic_ifstream<char, std::__1::char_traits<char> >' first required here
+        readFromFile(inFile1);
+                     ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/ios:313:5: note: declared private here
+    ios_base(const ios_base&); // = delete;
+    ^
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:53:07 **** Incremental Build of configuration Debug for project Assignment 12 ****
+make all 
+Building file: ../functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"functions.d" -MT"functions.o" -o "functions.o" "../functions.cpp"
+Finished building: ../functions.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:17:2: error: no matching function for call to 'readFromFile'
+        readFromFile(inFile1);
+        ^~~~~~~~~~~~
+../Header.h:15:6: note: candidate function not viable: no known conversion from 'std::__1::ifstream' (aka 'basic_ifstream<char>') to 'std::__1::fstream' (aka 'basic_fstream<char>') for 1st argument
+void readFromFile(fstream iFile);
+     ^
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:53:35 **** Incremental Build of configuration Debug for project Assignment 12 ****
+make all 
+Building file: ../functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"functions.d" -MT"functions.o" -o "functions.o" "../functions.cpp"
+Finished building: ../functions.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:17:2: error: no matching function for call to 'readFromFile'
+        readFromFile(inFile1);
+        ^~~~~~~~~~~~
+../Header.h:15:6: note: candidate function not viable: no known conversion from 'std::__1::ifstream' (aka 'basic_ifstream<char>') to 'std::__1::fstream' (aka 'basic_fstream<char>') for 1st argument
+void readFromFile(fstream inFile);
+     ^
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:54:34 **** Incremental Build of configuration Debug for project Assignment 12 ****
+make all 
+Building file: ../functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"functions.d" -MT"functions.o" -o "functions.o" "../functions.cpp"
+Finished building: ../functions.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:1:
+In file included from ../Header.h:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iostream:39:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/streambuf:493:64: error: base class 'std::__1::ios_base' has private copy constructor
+_LIBCPP_EXTERN_TEMPLATE(class _LIBCPP_EXTERN_TEMPLATE_TYPE_VIS basic_ios<char>)
+                                                               ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iosfwd:131:32: note: in implicit copy constructor for 'std::__1::basic_ios<char>' first required here
+    class _LIBCPP_TEMPLATE_VIS basic_ifstream;
+                               ^
+../main.cpp:17:15: note: in implicit copy constructor for 'std::__1::basic_ifstream<char, std::__1::char_traits<char> >' first required here
+        readFromFile(inFile1);
+                     ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/ios:313:5: note: declared private here
+    ios_base(const ios_base&); // = delete;
+    ^
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:54:46 **** Incremental Build of configuration Debug for project Assignment 12 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:1:
+In file included from ../Header.h:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iostream:39:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/streambuf:493:64: error: base class 'std::__1::ios_base' has private copy constructor
+_LIBCPP_EXTERN_TEMPLATE(class _LIBCPP_EXTERN_TEMPLATE_TYPE_VIS basic_ios<char>)
+                                                               ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iosfwd:131:32: note: in implicit copy constructor for 'std::__1::basic_ios<char>' first required here
+    class _LIBCPP_TEMPLATE_VIS basic_ifstream;
+                               ^
+../main.cpp:17:15: note: in implicit copy constructor for 'std::__1::basic_ifstream<char, std::__1::char_traits<char> >' first required here
+        readFromFile(inFile1);
+                     ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/ios:313:5: note: declared private here
+    ios_base(const ios_base&); // = delete;
+    ^
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:55:56 **** Incremental Build of configuration Debug for project Assignment 12 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:1:
+In file included from ../Header.h:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iostream:39:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/streambuf:493:64: error: base class 'std::__1::ios_base' has private copy constructor
+_LIBCPP_EXTERN_TEMPLATE(class _LIBCPP_EXTERN_TEMPLATE_TYPE_VIS basic_ios<char>)
+                                                               ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iosfwd:131:32: note: in implicit copy constructor for 'std::__1::basic_ios<char>' first required here
+    class _LIBCPP_TEMPLATE_VIS basic_ifstream;
+                               ^
+../main.cpp:17:15: note: in implicit copy constructor for 'std::__1::basic_ifstream<char, std::__1::char_traits<char> >' first required here
+        readFromFile(inFile1);
+                     ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/ios:313:5: note: declared private here
+    ios_base(const ios_base&); // = delete;
+    ^
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:59:32 **** Incremental Build of configuration Debug for project Assignment 12 ****
+make all 
+Building file: ../functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"functions.d" -MT"functions.o" -o "functions.o" "../functions.cpp"
+Finished building: ../functions.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:1:
+In file included from ../Header.h:5:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iostream:39:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/streambuf:493:64: error: base class 'std::__1::ios_base' has private copy constructor
+_LIBCPP_EXTERN_TEMPLATE(class _LIBCPP_EXTERN_TEMPLATE_TYPE_VIS basic_ios<char>)
+                                                               ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iosfwd:131:32: note: in implicit copy constructor for 'std::__1::basic_ios<char>' first required here
+    class _LIBCPP_TEMPLATE_VIS basic_ifstream;
+                               ^
+../main.cpp:18:15: note: in implicit copy constructor for 'std::__1::basic_ifstream<char, std::__1::char_traits<char> >' first required here
+        readFromFile(inFile1);
+                     ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/ios:313:5: note: declared private here
+    ios_base(const ios_base&); // = delete;
+    ^
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:15:00 **** Incremental Build of configuration Debug for project Assignment 12 ****
+make all 
+Building file: ../functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"functions.d" -MT"functions.o" -o "functions.o" "../functions.cpp"
+../functions.cpp:17:3: error: no matching function for call to 'getline'
+                getline(inFile1, date_AR[i]);
+                ^~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1389:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'char'
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1340:1: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/stdio.h:359:9: note: candidate function not viable: requires 3 arguments, but 2 were provided
+ssize_t getline(char ** __restrict __linep, size_t * __restrict __linecapp, FILE * __restrict __stream) __OSX_AVAILABLE_STARTING(__MAC_10_7, __IPHONE_4_3);
+        ^
+../functions.cpp:18:3: error: no matching function for call to 'getline'
+                getline(inFile1, userID_AR[i]);
+                ^~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1389:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'char'
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1340:1: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/stdio.h:359:9: note: candidate function not viable: requires 3 arguments, but 2 were provided
+ssize_t getline(char ** __restrict __linep, size_t * __restrict __linecapp, FILE * __restrict __stream) __OSX_AVAILABLE_STARTING(__MAC_10_7, __IPHONE_4_3);
+        ^
+../functions.cpp:19:3: error: no matching function for call to 'getline'
+                getline(inFile1, itemSold_AR[i]);
+                ^~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1389:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'char'
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1340:1: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/stdio.h:359:9: note: candidate function not viable: requires 3 arguments, but 2 were provided
+ssize_t getline(char ** __restrict __linep, size_t * __restrict __linecapp, FILE * __restrict __stream) __OSX_AVAILABLE_STARTING(__MAC_10_7, __IPHONE_4_3);
+        ^
+../functions.cpp:20:22: error: subscripted value is not an array, pointer, or vector
+                inFile1 >> price_AR[i];
+                           ~~~~~~~~^~
+../functions.cpp:22:11: error: use of undeclared identifier 'inFile'
+                getline(inFile, node.genre);
+                        ^
+../functions.cpp:22:19: error: use of undeclared identifier 'node'
+                getline(inFile, node.genre);
+                                ^
+../functions.cpp:23:11: error: use of undeclared identifier 'inFile'
+                getline(inFile, node.altGenre);
+                        ^
+../functions.cpp:23:19: error: use of undeclared identifier 'node'
+                getline(inFile, node.altGenre);
+                                ^
+../functions.cpp:24:3: error: use of undeclared identifier 'inFile'; did you mean 'inFile1'?
+                inFile >> node.year;
+                ^~~~~~
+                inFile1
+../functions.cpp:9:11: note: 'inFile1' declared here
+        ifstream inFile1;
+                 ^
+../functions.cpp:24:13: error: use of undeclared identifier 'node'
+                inFile >> node.year;
+                          ^
+../functions.cpp:25:3: error: use of undeclared identifier 'inFile'; did you mean 'inFile1'?
+                inFile >> node.rating;
+                ^~~~~~
+                inFile1
+../functions.cpp:9:11: note: 'inFile1' declared here
+        ifstream inFile1;
+                 ^
+../functions.cpp:25:13: error: use of undeclared identifier 'node'
+                inFile >> node.rating;
+                          ^
+../functions.cpp:26:3: error: use of undeclared identifier 'inFile'; did you mean 'inFile1'?
+                inFile.ignore(10000,'\n');
+                ^~~~~~
+                inFile1
+../functions.cpp:9:11: note: 'inFile1' declared here
+        ifstream inFile1;
+                 ^
+../functions.cpp:27:11: error: use of undeclared identifier 'inFile'
+                getline(inFile, node.synopsis);
+                        ^
+../functions.cpp:27:19: error: use of undeclared identifier 'node'
+                getline(inFile, node.synopsis);
+                                ^
+../functions.cpp:28:3: error: use of undeclared identifier 'inFile'; did you mean 'inFile1'?
+                inFile.ignore(10000,'\n');
+                ^~~~~~
+                inFile1
+../functions.cpp:9:11: note: 'inFile1' declared here
+        ifstream inFile1;
+                 ^
+../functions.cpp:30:3: error: use of undeclared identifier 'StackList'
+                StackList::Push(node);
+                ^
+../functions.cpp:34:2: error: use of undeclared identifier 'inFile'; did you mean 'inFile1'?
+        inFile.close();
+        ^~~~~~
+        inFile1
+../functions.cpp:9:11: note: 'inFile1' declared here
+        ifstream inFile1;
+                 ^
+18 errors generated.
+make: *** [functions.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:19:43 **** Incremental Build of configuration Debug for project Assignment 12 ****
+make all 
+Building file: ../functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"functions.d" -MT"functions.o" -o "functions.o" "../functions.cpp"
+../functions.cpp:17:3: error: no matching function for call to 'getline'
+                getline(inFile1,date_AR[i]);
+                ^~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1389:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'char'
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1340:1: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/stdio.h:359:9: note: candidate function not viable: requires 3 arguments, but 2 were provided
+ssize_t getline(char ** __restrict __linep, size_t * __restrict __linecapp, FILE * __restrict __stream) __OSX_AVAILABLE_STARTING(__MAC_10_7, __IPHONE_4_3);
+        ^
+../functions.cpp:22:3: error: no matching function for call to 'getline'
+                getline(inFile1, date_AR[i]);
+                ^~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1389:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'char'
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1340:1: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/stdio.h:359:9: note: candidate function not viable: requires 3 arguments, but 2 were provided
+ssize_t getline(char ** __restrict __linep, size_t * __restrict __linecapp, FILE * __restrict __stream) __OSX_AVAILABLE_STARTING(__MAC_10_7, __IPHONE_4_3);
+        ^
+../functions.cpp:23:3: error: no matching function for call to 'getline'
+                getline(inFile1, userID_AR[i]);
+                ^~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1389:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'char'
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1340:1: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/stdio.h:359:9: note: candidate function not viable: requires 3 arguments, but 2 were provided
+ssize_t getline(char ** __restrict __linep, size_t * __restrict __linecapp, FILE * __restrict __stream) __OSX_AVAILABLE_STARTING(__MAC_10_7, __IPHONE_4_3);
+        ^
+../functions.cpp:24:3: error: no matching function for call to 'getline'
+                getline(inFile1, itemSold_AR[i]);
+                ^~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1389:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'char'
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1340:1: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/stdio.h:359:9: note: candidate function not viable: requires 3 arguments, but 2 were provided
+ssize_t getline(char ** __restrict __linep, size_t * __restrict __linecapp, FILE * __restrict __stream) __OSX_AVAILABLE_STARTING(__MAC_10_7, __IPHONE_4_3);
+        ^
+../functions.cpp:25:22: error: subscripted value is not an array, pointer, or vector
+                inFile1 >> price_AR[i];
+                           ~~~~~~~~^~
+../functions.cpp:27:11: error: use of undeclared identifier 'inFile'
+                getline(inFile, node.genre);
+                        ^
+../functions.cpp:27:19: error: use of undeclared identifier 'node'
+                getline(inFile, node.genre);
+                                ^
+../functions.cpp:28:11: error: use of undeclared identifier 'inFile'
+                getline(inFile, node.altGenre);
+                        ^
+../functions.cpp:28:19: error: use of undeclared identifier 'node'
+                getline(inFile, node.altGenre);
+                                ^
+../functions.cpp:29:3: error: use of undeclared identifier 'inFile'; did you mean 'inFile1'?
+                inFile >> node.year;
+                ^~~~~~
+                inFile1
+../functions.cpp:9:11: note: 'inFile1' declared here
+        ifstream inFile1;
+                 ^
+../functions.cpp:29:13: error: use of undeclared identifier 'node'
+                inFile >> node.year;
+                          ^
+../functions.cpp:30:3: error: use of undeclared identifier 'inFile'; did you mean 'inFile1'?
+                inFile >> node.rating;
+                ^~~~~~
+                inFile1
+../functions.cpp:9:11: note: 'inFile1' declared here
+        ifstream inFile1;
+                 ^
+../functions.cpp:30:13: error: use of undeclared identifier 'node'
+                inFile >> node.rating;
+                          ^
+../functions.cpp:31:3: error: use of undeclared identifier 'inFile'; did you mean 'inFile1'?
+                inFile.ignore(10000,'\n');
+                ^~~~~~
+                inFile1
+../functions.cpp:9:11: note: 'inFile1' declared here
+        ifstream inFile1;
+                 ^
+../functions.cpp:32:11: error: use of undeclared identifier 'inFile'
+                getline(inFile, node.synopsis);
+                        ^
+../functions.cpp:32:19: error: use of undeclared identifier 'node'
+                getline(inFile, node.synopsis);
+                                ^
+../functions.cpp:33:3: error: use of undeclared identifier 'inFile'; did you mean 'inFile1'?
+                inFile.ignore(10000,'\n');
+                ^~~~~~
+                inFile1
+../functions.cpp:9:11: note: 'inFile1' declared here
+        ifstream inFile1;
+                 ^
+../functions.cpp:35:3: error: use of undeclared identifier 'StackList'
+                StackList::Push(node);
+                ^
+../functions.cpp:39:2: error: use of undeclared identifier 'inFile'; did you mean 'inFile1'?
+        inFile.close();
+        ^~~~~~
+        inFile1
+../functions.cpp:9:11: note: 'inFile1' declared here
+        ifstream inFile1;
+                 ^
+19 errors generated.
+make: *** [functions.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.

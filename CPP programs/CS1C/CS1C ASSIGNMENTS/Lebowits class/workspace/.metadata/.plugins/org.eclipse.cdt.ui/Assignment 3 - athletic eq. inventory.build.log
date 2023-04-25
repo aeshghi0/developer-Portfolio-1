@@ -1,0 +1,6 @@
+19:44:22 **** Incremental Build of configuration Debug for project Assignment 3 - athletic eq. inventory ****
+make all 
+make: Nothing to be done for `all'.
+
+19:44:22 Build Finished. 0 errors, 0 warnings. (took 72ms)
+

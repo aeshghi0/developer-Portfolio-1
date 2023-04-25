@@ -1,0 +1,22 @@
+Script started on Mon Jul 27 01:20:20 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ da3e[K[Kte
+Mon Jul 27 01:20:26 +0430 2020
+bash-3.2$ ls -l
+total 40
+-rw-r--r--@ 1 alieshghi  staff  12020 Jul 27 01:19 hw16.cpp
+-rw-r--r--  1 alieshghi  staff     43 Jul 27 01:20 hw16.scr
+-rw-r--r--@ 1 alieshghi  staff    268 Jul 25 13:00 makefile
+bash-3.2$ make all
+g++  -std=c++14 -Wall hw14.cpp -o hw14 LinkedList.o Node.o DNode.o DLinkedList.o
+clang: [0;1;31merror: [0mno such file or directory: 'hw14.cpp'[0m
+clang: [0;1;31merror: [0mno such file or directory: 'LinkedList.o'[0m
+clang: [0;1;31merror: [0mno such file or directory: 'Node.o'[0m
+clang: [0;1;31merror: [0mno such file or directory: 'DNode.o'[0m
+clang: [0;1;31merror: [0mno such file or directory: 'DLinkedList.o'[0m
+clang: [0;1;31merror: [0mno input files[0m
+make: *** [hw16] Error 1
+bash-3.2$ 

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Aj ASS5/Header.h&apos; to &apos;MyHeader.h&apos;" description="Rename resource &apos;Header.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Header.h" name="MyHeader.h" stamp="1576796386735" updateReferences="true"/>
+</session>

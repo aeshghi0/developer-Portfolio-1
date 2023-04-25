@@ -1,0 +1,183 @@
+***************************************************
+*  PROGRAMMED BY : ALI ESHGHI
+*  CLASS         : CS1B
+*  SECTION       : MW: 7:30p - 9:50p
+*  LAB #14       : LAB 13 - Using inheritence classes
+***************************************************
+
+1 - Initialize Animals 
+0 - Exit
+Enter Selection: 1
+
+1 - Re - Initializing Sheeps 
+2 - Re - Initializing Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter Selection: 3
+
+CHANGE AGE:
+Which type of animal do you have in mind
+1 - Sheep
+2 - Pig
+Select the animal type: 2
+
+NAME          AGE    TAILTYPE 
+------------- ------ -------- 
+Piggy          3      CURL_UP  
+Charlotte      10     CORKSCREW
+Oink           2      STRAIGHT 
+
+Which Pig would you like to change: 
+Oink
+Enter the new Age: 6
+The Age for pig Oink has been changed to 6 !
+
+1 - Re - Initializing Sheeps 
+2 - Re - Initializing Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter Selection: 1
+Are you sure you want to reinitialize Sheeps (Y/N)?h
+
+**** h is an invalid entry     ****
+**** Please input Y or N ****
+
+Are you sure you want to reinitialize Sheeps (Y/N)?n
+Sheeps have not beenre-initialized!
+
+1 - Re - Initializing Sheeps 
+2 - Re - Initializing Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter Selection: 2
+Are you sure you want to reinitialize Pigs (Y/N)?r
+
+**** r is an invalid entry     ****
+**** Please input Y or N ****
+
+Are you sure you want to reinitialize Pigs (Y/N)?n
+Pigs have not beenre-initialized!
+
+1 - Re - Initializing Sheeps 
+2 - Re - Initializing Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter Selection: 3
+
+CHANGE AGE:
+Which type of animal do you have in mind
+1 - Sheep
+2 - Pig
+Select the animal type: 1
+
+THE SHEEP:
+
+NAME           AGE    WOOLTYPE COLOR
+-------------- ------ -------- ----
+Fluffy         5      MEDIUM   Black
+Baa            7      FINE     White
+Babe           8      LONG     Brown
+
+ Which Sheep would you like change: 
+Baa
+Enter the new Age: 3
+The Age for sheep Baa has been changed to 3 !
+
+1 - Re - Initializing Sheeps 
+2 - Re - Initializing Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter Selection: 4
+
+THE SHEEP:
+
+NAME           AGE    WOOLTYPE COLOR
+-------------- ------ -------- ----
+Fluffy         5      MEDIUM   Black
+Baa            3      FINE     White
+Babe           8      LONG     Brown
+
+THE PIG:
+
+NAME          AGE    TAILTYPE 
+------------- ------ -------- 
+Piggy          3      CURL_UP  
+Charlotte      10     CORKSCREW
+Oink           6      STRAIGHT 
+
+1 - Re - Initializing Sheeps 
+2 - Re - Initializing Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter Selection: 5
+
+**** The number 5 is an invalid entry     ****
+**** Please input a number between 0 and 4 ****
+
+1 - Re - Initializing Sheeps 
+2 - Re - Initializing Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter Selection: g
+
+**** Please input a NUMBER between 0 and 4 ****
+
+1 - Re - Initializing Sheeps 
+2 - Re - Initializing Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter Selection: 1
+Are you sure you want to reinitialize Sheeps (Y/N)?y
+
+Initializing the Sheeps...
+
+
+1 - Re - Initializing Sheeps 
+2 - Re - Initializing Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter Selection: 2
+Are you sure you want to reinitialize Pigs (Y/N)?y
+
+Initializing the Pigs...
+
+
+1 - Re - Initializing Sheeps 
+2 - Re - Initializing Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter Selection: 4
+
+THE SHEEP:
+
+NAME           AGE    WOOLTYPE COLOR
+-------------- ------ -------- ----
+Fluffy         5      MEDIUM   Black
+Baa            7      FINE     White
+Babe           8      LONG     Brown
+
+THE PIG:
+
+NAME          AGE    TAILTYPE 
+------------- ------ -------- 
+Piggy          3      CURL_UP  
+Charlotte      10     CORKSCREW
+Oink           2      STRAIGHT 
+
+1 - Re - Initializing Sheeps 
+2 - Re - Initializing Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter Selection: 0
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Assignment 2/GetPlayer.cpp&apos; to &apos;GetPlayers.cpp&apos;" description="Rename resource &apos;GetPlayer.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="GetPlayer.cpp" name="GetPlayers.cpp" stamp="1570510376002" updateReferences="true"/>
+</session>

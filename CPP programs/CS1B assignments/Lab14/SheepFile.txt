@@ -1,0 +1,14 @@
+Fluffy
+5
+MEDIUM
+Black
+
+Baa
+7
+FINE
+White
+
+Babe
+8
+LONG
+Brown

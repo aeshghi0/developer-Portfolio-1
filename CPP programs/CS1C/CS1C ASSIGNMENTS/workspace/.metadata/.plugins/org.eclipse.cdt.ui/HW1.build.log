@@ -1,0 +1,15 @@
+18:38:33 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+Building file: ../functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"functions.d" -MT"functions.o" -o "functions.o" "../functions.cpp"
+Finished building: ../functions.cpp
+ 
+Building target: HW1
+Invoking: MacOS X C++ Linker
+g++  -o "HW1"  ./functions.o ./main.o   
+Finished building target: HW1
+ 
+
+18:38:33 Build Finished. 0 errors, 0 warnings. (took 494ms)
+

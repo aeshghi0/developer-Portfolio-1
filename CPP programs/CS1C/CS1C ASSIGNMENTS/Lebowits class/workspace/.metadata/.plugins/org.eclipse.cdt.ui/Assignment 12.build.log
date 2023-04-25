@@ -1,0 +1,124 @@
+23:19:43 **** Incremental Build of configuration Debug for project Assignment 12 ****
+make all 
+Building file: ../functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"functions.d" -MT"functions.o" -o "functions.o" "../functions.cpp"
+../functions.cpp:17:3: error: no matching function for call to 'getline'
+                getline(inFile1,date_AR[i]);
+                ^~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1389:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'char'
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1340:1: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/stdio.h:359:9: note: candidate function not viable: requires 3 arguments, but 2 were provided
+ssize_t getline(char ** __restrict __linep, size_t * __restrict __linecapp, FILE * __restrict __stream) __OSX_AVAILABLE_STARTING(__MAC_10_7, __IPHONE_4_3);
+        ^
+../functions.cpp:22:3: error: no matching function for call to 'getline'
+                getline(inFile1, date_AR[i]);
+                ^~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1389:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'char'
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1340:1: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/stdio.h:359:9: note: candidate function not viable: requires 3 arguments, but 2 were provided
+ssize_t getline(char ** __restrict __linep, size_t * __restrict __linecapp, FILE * __restrict __stream) __OSX_AVAILABLE_STARTING(__MAC_10_7, __IPHONE_4_3);
+        ^
+../functions.cpp:23:3: error: no matching function for call to 'getline'
+                getline(inFile1, userID_AR[i]);
+                ^~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1389:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'char'
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1340:1: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/stdio.h:359:9: note: candidate function not viable: requires 3 arguments, but 2 were provided
+ssize_t getline(char ** __restrict __linep, size_t * __restrict __linecapp, FILE * __restrict __stream) __OSX_AVAILABLE_STARTING(__MAC_10_7, __IPHONE_4_3);
+        ^
+../functions.cpp:24:3: error: no matching function for call to 'getline'
+                getline(inFile1, itemSold_AR[i]);
+                ^~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1389:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'char'
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/istream:1340:1: note: candidate function template not viable: requires 3 arguments, but 2 were provided
+getline(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/stdio.h:359:9: note: candidate function not viable: requires 3 arguments, but 2 were provided
+ssize_t getline(char ** __restrict __linep, size_t * __restrict __linecapp, FILE * __restrict __stream) __OSX_AVAILABLE_STARTING(__MAC_10_7, __IPHONE_4_3);
+        ^
+../functions.cpp:25:22: error: subscripted value is not an array, pointer, or vector
+                inFile1 >> price_AR[i];
+                           ~~~~~~~~^~
+../functions.cpp:27:11: error: use of undeclared identifier 'inFile'
+                getline(inFile, node.genre);
+                        ^
+../functions.cpp:27:19: error: use of undeclared identifier 'node'
+                getline(inFile, node.genre);
+                                ^
+../functions.cpp:28:11: error: use of undeclared identifier 'inFile'
+                getline(inFile, node.altGenre);
+                        ^
+../functions.cpp:28:19: error: use of undeclared identifier 'node'
+                getline(inFile, node.altGenre);
+                                ^
+../functions.cpp:29:3: error: use of undeclared identifier 'inFile'; did you mean 'inFile1'?
+                inFile >> node.year;
+                ^~~~~~
+                inFile1
+../functions.cpp:9:11: note: 'inFile1' declared here
+        ifstream inFile1;
+                 ^
+../functions.cpp:29:13: error: use of undeclared identifier 'node'
+                inFile >> node.year;
+                          ^
+../functions.cpp:30:3: error: use of undeclared identifier 'inFile'; did you mean 'inFile1'?
+                inFile >> node.rating;
+                ^~~~~~
+                inFile1
+../functions.cpp:9:11: note: 'inFile1' declared here
+        ifstream inFile1;
+                 ^
+../functions.cpp:30:13: error: use of undeclared identifier 'node'
+                inFile >> node.rating;
+                          ^
+../functions.cpp:31:3: error: use of undeclared identifier 'inFile'; did you mean 'inFile1'?
+                inFile.ignore(10000,'\n');
+                ^~~~~~
+                inFile1
+../functions.cpp:9:11: note: 'inFile1' declared here
+        ifstream inFile1;
+                 ^
+../functions.cpp:32:11: error: use of undeclared identifier 'inFile'
+                getline(inFile, node.synopsis);
+                        ^
+../functions.cpp:32:19: error: use of undeclared identifier 'node'
+                getline(inFile, node.synopsis);
+                                ^
+../functions.cpp:33:3: error: use of undeclared identifier 'inFile'; did you mean 'inFile1'?
+                inFile.ignore(10000,'\n');
+                ^~~~~~
+                inFile1
+../functions.cpp:9:11: note: 'inFile1' declared here
+        ifstream inFile1;
+                 ^
+../functions.cpp:35:3: error: use of undeclared identifier 'StackList'
+                StackList::Push(node);
+                ^
+../functions.cpp:39:2: error: use of undeclared identifier 'inFile'; did you mean 'inFile1'?
+        inFile.close();
+        ^~~~~~
+        inFile1
+../functions.cpp:9:11: note: 'inFile1' declared here
+        ifstream inFile1;
+                 ^
+19 errors generated.
+make: *** [functions.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+23:19:43 Build Failed. 20 errors, 0 warnings. (took 395ms)
+

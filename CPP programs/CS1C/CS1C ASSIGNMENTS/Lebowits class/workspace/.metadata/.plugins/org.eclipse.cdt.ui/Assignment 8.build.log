@@ -1,0 +1,37 @@
+18:05:58 **** Incremental Build of configuration Debug for project Assignment 8 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:10:
+../MyHeader.h:65:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:88:3: note: in instantiation of member function 'Queue<int>::dequeue' requested here
+d.dequeue();
+  ^
+../MyHeader.h:61:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0
+../MyHeader.h:65:11: warning: variable 'temp' is uninitialized when used here [-Wuninitialized]
+                        return temp;
+                               ^~~~
+../main.cpp:111:3: note: in instantiation of member function 'Queue<double>::dequeue' requested here
+i.dequeue();
+  ^
+../MyHeader.h:61:9: note: initialize the variable 'temp' to silence this warning
+                X temp;
+                      ^
+                       = 0.0
+2 warnings generated.
+Finished building: ../main.cpp
+ 
+Building target: Assignment 8
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 8"  ./main.o   
+Finished building target: Assignment 8
+ 
+
+18:05:58 Build Finished. 0 errors, 2 warnings. (took 441ms)
+

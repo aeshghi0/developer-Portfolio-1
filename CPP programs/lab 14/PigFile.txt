@@ -1,0 +1,9 @@
+Piggy
+3
+CURL_UP
+Charlotte
+10
+CORKSCREW
+Oink
+2
+STRAIGHT

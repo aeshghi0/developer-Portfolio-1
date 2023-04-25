@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;functions and arrays(extera credit)/InputFileRead&apos; to &apos;InputFileRead.cpp&apos;" description="Rename resource &apos;InputFileRead&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="InputFileRead" name="InputFileRead.cpp" stamp="1568701743031" updateReferences="true"/>
+</session>

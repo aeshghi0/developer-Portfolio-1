@@ -1,0 +1,785 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Italic;\f2\fnil\fcharset0 Menlo-Bold;
+\f3\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red83\green101\blue121;\red255\green255\blue255;\red155\green35\blue147;
+\red0\green0\blue0;\red28\green0\blue207;\red196\green26\blue22;}
+{\*\expandedcolortbl;;\csgenericrgb\c32401\c39745\c47507;\csgenericrgb\c100000\c100000\c100000;\csgenericrgb\c60759\c13753\c57628;
+\csgenericrgb\c0\c0\c0;\csgenericrgb\c11000\c0\c81000;\csgenericrgb\c77000\c10200\c8600;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 #Ali Eshghi\
+#1112261\
+#Lab 3\
+\
+\pard\tx593\pardeftab593\pardirnatural\partightenfactor0
+
+\f1\i \cf2 \cb3 #lab3 set1
+\f0\i0 \cf0 \
+\
+
+\f2\b \cf4 def
+\f3\b0 \cf5  texas():
+\f0 \cf0 \
+
+\f3 \cf5     brds=\cf6 5000
+\f0 \cf0 \
+
+\f3 \cf5     
+\f2\b \cf4 print
+\f3\b0 \cf5 (\cf7 "The state of Texas has"\cf5 ,brds,\cf7 " birds."\cf5 )
+\f0 \cf0 \
+\
+
+\f2\b \cf4 def
+\f3\b0 \cf5  california():
+\f0 \cf0 \
+
+\f3 \cf5     birdss=\cf6 8000
+\f0 \cf0 \
+
+\f3 \cf5     
+\f2\b \cf4 print
+\f3\b0 \cf5 (\cf7 "The state of California has "\cf5 ,birdss,\cf7 " birds."\cf5 )
+\f0 \cf0 \
+\
+
+\f2\b \cf4 def
+\f3\b0 \cf5  main():
+\f0 \cf0 \
+
+\f3 \cf5     texas()
+\f0 \cf0 \
+
+\f3 \cf5     california()
+\f0 \cf0 \
+\
+
+\f2\b \cf4 if
+\f3\b0 \cf5  __name__==\cf7 "__main__"\cf5 :
+\f0 \cf0 \
+
+\f3 \cf5     main()
+\f0 \cf0 \
+\
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##======= RESTART: /Users/alieshghi/Desktop/lab 3/Lab 3 Program set 1.py =======
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The state of Texas has 5000  birds.
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The state of California has  8000  birds.
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+\
+\
+
+\f1\i \cf2 #Lab3 set2
+\f0\i0 \cf0 \
+\
+
+\f2\b \cf4 def
+\f3\b0 \cf5  show_intrest(rate=\cf6 0.01\cf5 ,principal=\cf6 10000.00\cf5 ,periods=\cf6 10\cf5 ):
+\f0 \cf0 \
+
+\f3 \cf5     intrest= principal*rate*periods
+\f0 \cf0 \
+
+\f3 \cf5     
+\f2\b \cf4 print
+\f3\b0 \cf5 (\cf7 "The simple intrest will be $"\cf5 ,format(intrest,\cf6 '.2f'\cf5 ))
+\f0 \cf0 \
+
+\f3 \cf5     
+\f0 \cf0 \
+
+\f2\b \cf4 def
+\f3\b0 \cf5  main():
+\f0 \cf0 \
+
+\f3 \cf5     show_intrest()
+\f0 \cf0 \
+
+\f3 \cf5     
+\f0 \cf0 \
+
+\f2\b \cf4 if
+\f3\b0 \cf5  __name__==\cf7 "__main__"\cf5 :
+\f0 \cf0 \
+
+\f3 \cf5     main()
+\f0 \cf0 \
+\
+\
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##======= RESTART: /Users/alieshghi/Desktop/lab 3/Lab 3 program set 2.py =======
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The simple intrest will be $ 1000.00
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+\
+\
+
+\f1\i \cf2 #Lab3 set3
+\f0\i0 \cf0 \
+\
+
+\f2\b \cf4 def
+\f3\b0 \cf5  get_data()->(float,float):
+\f0 \cf0 \
+
+\f3 \cf5     lngth=float(input(\cf7 "Enter the length of trianagle: "\cf5 ))
+\f0 \cf0 \
+
+\f3 \cf5     hght=float(input(\cf7 "Enter the prependicular height of trianagle: "\cf5 ))
+\f0 \cf0 \
+
+\f3 \cf5     
+\f2\b \cf4 return
+\f3\b0 \cf5  lngth,hght
+\f0 \cf0 \
+\
+
+\f2\b \cf4 def
+\f3\b0 \cf5  trig_S(lngth:float,hght:float)->float:
+\f0 \cf0 \
+
+\f3 \cf5     S=(hght*lngth)/\cf6 2
+\f0 \cf0 \
+
+\f3 \cf5     
+\f2\b \cf4 return
+\f3\b0 \cf5  S
+\f0 \cf0 \
+\
+
+\f2\b \cf4 def
+\f3\b0 \cf5  display_data(lngth:float,hght:float,S:float) -> 
+\f2\b \cf4 None
+\f3\b0 \cf5 :
+\f0 \cf0 \
+
+\f3 \cf5     
+\f2\b \cf4 print
+\f3\b0 \cf5 (\cf7 "The length of trianagle is "\cf5 ,lngth)
+\f0 \cf0 \
+
+\f3 \cf5     
+\f2\b \cf4 print
+\f3\b0 \cf5 (\cf7 "The prependicular height of trianagle: "\cf5 ,hght)
+\f0 \cf0 \
+
+\f3 \cf5     
+\f2\b \cf4 print
+\f3\b0 \cf5 (\cf7 "The area of trianagle: "\cf5 ,S)
+\f0 \cf0 \
+\
+
+\f2\b \cf4 def
+\f3\b0 \cf5  main():
+\f0 \cf0 \
+
+\f3 \cf5     lngth,hght=get_data()
+\f0 \cf0 \
+
+\f3 \cf5     S=trig_S(lngth,hght)
+\f0 \cf0 \
+
+\f3 \cf5     display_data(lngth,hght,S)
+\f0 \cf0 \
+\
+
+\f2\b \cf4 if
+\f3\b0 \cf5  __name__==\cf7 "__main__"\cf5 :
+\f0 \cf0 \
+
+\f3 \cf5     main()
+\f0 \cf0 \
+\
+\
+\
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##======= RESTART: /Users/alieshghi/Desktop/lab 3/Lab 3 program set 3.py =======
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter the length of trianagle: 3
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter the prependicular height of trianagle: 5
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The length of trianagle is  3.0
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The prependicular height of trianagle:  5.0
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The area of trianagle:  7.5
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##======= RESTART: /Users/alieshghi/Desktop/lab 3/Lab 3 program set 3.py =======
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter the length of trianagle: 5
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter the prependicular height of trianagle: 6
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The length of trianagle is  5.0
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The prependicular height of trianagle:  6.0
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The area of trianagle:  15.0
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##======= RESTART: /Users/alieshghi/Desktop/lab 3/Lab 3 program set 3.py =======
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter the length of trianagle: 4
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter the prependicular height of trianagle: 9
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The length of trianagle is  4.0
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The prependicular height of trianagle:  9.0
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The area of trianagle:  18.0
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##======= RESTART: /Users/alieshghi/Desktop/lab 3/Lab 3 program set 3.py =======
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter the length of trianagle: 1
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter the prependicular height of trianagle: 10
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The length of trianagle is  1.0
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The prependicular height of trianagle:  10.0
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The area of trianagle:  5.0
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##======= RESTART: /Users/alieshghi/Desktop/lab 3/Lab 3 program set 3.py =======
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter the length of trianagle: 6
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter the prependicular height of trianagle: 9
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The length of trianagle is  6.0
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The prependicular height of trianagle:  9.0
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The area of trianagle:  27.0
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+\
+\
+
+\f1\i \cf2 #Lab3 set4
+\f0\i0 \cf0 \
+\
+
+\f2\b \cf4 def
+\f3\b0 \cf5  get_sales()->float:
+\f0 \cf0 \
+
+\f3 \cf5     sales=float(input(\cf7 "Enter the monthly sales: "\cf5 ))
+\f0 \cf0 \
+
+\f3 \cf5     
+\f2\b \cf4 return
+\f3\b0 \cf5  sales
+\f0 \cf0 \
+
+\f2\b \cf4 def
+\f3\b0 \cf5  get_advanced_pay()->float:
+\f0 \cf0 \
+
+\f3 \cf5     advanced_pay=float(input(\cf7 "Enter the amount of advanced pay,\\n or enter 0 if no advanced pay was given: "\cf5 ))
+\f0 \cf0 \
+
+\f3 \cf5     
+\f2\b \cf4 return
+\f3\b0 \cf5  advanced_pay
+\f0 \cf0 \
+
+\f2\b \cf4 def
+\f3\b0 \cf5  determine_comm_rate(sales)->float:
+\f0 \cf0 \
+
+\f3 \cf5     comm_rate=\cf6 0.12
+\f0 \cf0 \
+
+\f3 \cf5     
+\f2\b \cf4 return
+\f3\b0 \cf5  comm_rate
+\f0 \cf0 \
+
+\f2\b \cf4 def
+\f3\b0 \cf5  main():
+\f0 \cf0 \
+
+\f3 \cf5     sales=get_sales()
+\f0 \cf0 \
+
+\f3 \cf5     advanced_pay=get_advanced_pay()
+\f0 \cf0 \
+
+\f3 \cf5     comm_rate=determine_comm_rate(sales)
+\f0 \cf0 \
+
+\f3 \cf5     pay=(sales*comm_rate)-advanced_pay
+\f0 \cf0 \
+
+\f3 \cf5     
+\f2\b \cf4 print
+\f3\b0 \cf5 (\cf7 "Advanced pay: $"\cf5 ,format(advanced_pay,\cf6 ',.2f'\cf5 ),sep=\cf6 ''\cf5 )
+\f0 \cf0 \
+
+\f3 \cf5     
+\f2\b \cf4 print
+\f3\b0 \cf5 (\cf7 "The pay is: $"\cf5 ,format(pay,\cf6 ',.2f'\cf5 ),sep=\cf6 ''\cf5 )
+\f0 \cf0 \
+\
+
+\f3 \cf5     
+\f2\b \cf4 if
+\f3\b0 \cf5  pay<\cf6 0\cf5 :
+\f0 \cf0 \
+
+\f3 \cf5         
+\f2\b \cf4 print
+\f3\b0 \cf5 (\cf7 "the sales person must reimburse"\cf5 )
+\f0 \cf0 \
+
+\f3 \cf5         
+\f2\b \cf4 print
+\f3\b0 \cf5 (\cf7 "the company"\cf5 )
+\f0 \cf0 \
+\
+\
+\
+
+\f2\b \cf4 if
+\f3\b0 \cf5  __name__==\cf7 "__main__"\cf5 :
+\f0 \cf0 \
+
+\f3 \cf5     main()
+\f0 \cf0 \
+\
+\
+
+\f1\i \cf2 ##
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##========= RESTART: /Users/alieshghi/Desktop/lab 3/Lab3 set4 ready.py =========
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter the monthly sales: 1000.00
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter the amount of advanced pay,
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ## or enter 0 if no advanced pay was given: 0
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Advanced pay: $0.00
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The pay is: $120.00
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##========= RESTART: /Users/alieshghi/Desktop/lab 3/Lab3 set4 ready.py =========
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter the monthly sales: 10000
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter the amount of advanced pay,
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ## or enter 0 if no advanced pay was given: 340
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Advanced pay: $340.00
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The pay is: $860.00
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##========= RESTART: /Users/alieshghi/Desktop/lab 3/Lab3 set4 ready.py =========
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter the monthly sales: 500
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter the amount of advanced pay,
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ## or enter 0 if no advanced pay was given: 450
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Advanced pay: $450.00
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The pay is: $-390.00
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##the sales person must reimburse
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##the company
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##========= RESTART: /Users/alieshghi/Desktop/lab 3/Lab3 set4 ready.py =========
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter the monthly sales: 2000
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter the amount of advanced pay,
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ## or enter 0 if no advanced pay was given: 870
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Advanced pay: $870.00
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The pay is: $-630.00
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##the sales person must reimburse
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##the company
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##========= RESTART: /Users/alieshghi/Desktop/lab 3/Lab3 set4 ready.py =========
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter the monthly sales: 690
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter the amount of advanced pay,
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ## or enter 0 if no advanced pay was given: 0
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Advanced pay: $0.00
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##The pay is: $82.80
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+\
+\
+\
+
+\f1\i \cf2 #Lab3 set5
+\f0\i0 \cf0 \
+\
+
+\f2\b \cf4 def
+\f3\b0 \cf5  get_in()->str:
+\f0 \cf0 \
+
+\f3 \cf5     name=input(\cf7 "Enter your full name(including middle name): "\cf5 )
+\f0 \cf0 \
+
+\f3 \cf5     init=name.split(\cf7 " "\cf5 )
+\f0 \cf0 \
+
+\f3 \cf5     frst=init[\cf6 0\cf5 ]
+\f0 \cf0 \
+
+\f3 \cf5     mddl=init[\cf6 1\cf5 ]
+\f0 \cf0 \
+
+\f3 \cf5     lst=init[\cf6 2\cf5 ]
+\f0 \cf0 \
+
+\f3 \cf5     fn=frst[:\cf6 1\cf5 ]
+\f0 \cf0 \
+
+\f3 \cf5     mn=mddl[:\cf6 1\cf5 ]
+\f0 \cf0 \
+
+\f3 \cf5     ln=lst[:\cf6 1\cf5 ]
+\f0 \cf0 \
+
+\f3 \cf5     initial=fn+\cf6 '.'\cf5 +mn+\cf6 '.'\cf5 +ln
+\f0 \cf0 \
+
+\f3 \cf5     
+\f2\b \cf4 return
+\f3\b0 \cf5  initial
+\f0 \cf0 \
+\
+
+\f2\b \cf4 def
+\f3\b0 \cf5  main():
+\f0 \cf0 \
+
+\f3 \cf5     initial=get_in()
+\f0 \cf0 \
+
+\f3 \cf5     
+\f2\b \cf4 print
+\f3\b0 \cf5 (initial)
+\f0 \cf0 \
+\
+
+\f2\b \cf4 if
+\f3\b0 \cf5  __name__==\cf7 "__main__"\cf5 :
+\f0 \cf0 \
+
+\f3 \cf5     main()
+\f0 \cf0 \
+\
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##======= RESTART: /Users/alieshghi/Desktop/lab 3/Lab 3 program set 5.py =======
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter your full name(including middle name): Ali Sikim Eshghi
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##A.S.E
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##======= RESTART: /Users/alieshghi/Desktop/lab 3/Lab 3 program set 5.py =======
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter your full name(including middle name): Amir Joghd Valipour
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##A.J.V
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##======= RESTART: /Users/alieshghi/Desktop/lab 3/Lab 3 program set 5.py =======
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter your full name(including middle name): Siavash Chaghalian Baghalianzade
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##S.C.B
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##======= RESTART: /Users/alieshghi/Desktop/lab 3/Lab 3 program set 5.py =======
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter your full name(including middle name): Vala Heshmat Saadat
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##V.H.S
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##======= RESTART: /Users/alieshghi/Desktop/lab 3/Lab 3 program set 5.py =======
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##Enter your full name(including middle name): George W Bush
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##G.W.B
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+\
+\
+\
+
+\f1\i \cf2 #Lab3 set6
+\f0\i0 \cf0 \
+\
+\
+
+\f2\b \cf4 def
+\f3\b0 \cf5  string_total(number_string:str)->int:
+\f0 \cf0 \
+
+\f3 \cf5     total = \cf6 0
+\f0 \cf0 \
+
+\f3 \cf5     
+\f2\b \cf4 for
+\f3\b0 \cf5  ch 
+\f2\b \cf4 in
+\f3\b0 \cf5  number_string:
+\f0 \cf0 \
+
+\f3 \cf5         total = total + int(ch)
+\f0 \cf0 \
+
+\f3 \cf5     
+\f2\b \cf4 return
+\f3\b0 \cf5  total
+\f0 \cf0 \
+
+\f2\b \cf4 def
+\f3\b0 \cf5  main():
+\f0 \cf0 \
+
+\f3 \cf5     number_string=input(\cf7 "enter a sequence of numbers without space: "\cf5 )
+\f0 \cf0 \
+
+\f3 \cf5     total=string_total(number_string)
+\f0 \cf0 \
+
+\f3 \cf5     
+\f2\b \cf4 print
+\f3\b0 \cf5 (\cf7 "the total of digits in the string you entered is "\cf5 ,total)
+\f0 \cf0 \
+\
+
+\f2\b \cf4 if
+\f3\b0 \cf5  __name__==\cf6 '__main__'\cf5 :
+\f0 \cf0 \
+
+\f3 \cf5     main()
+\f0 \cf0 \
+\
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##======= RESTART: /Users/alieshghi/Desktop/lab 3/the sum of sequence.py =======
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##enter a sequence of numbers without space: 456
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##the total of digits in the string you entered is  15
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##======= RESTART: /Users/alieshghi/Desktop/lab 3/the sum of sequence.py =======
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##enter a sequence of numbers without space: 1234
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##the total of digits in the string you entered is  10
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##======= RESTART: /Users/alieshghi/Desktop/lab 3/the sum of sequence.py =======
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##enter a sequence of numbers without space: 896
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##the total of digits in the string you entered is  23
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##======= RESTART: /Users/alieshghi/Desktop/lab 3/the sum of sequence.py =======
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##enter a sequence of numbers without space: 7654
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##the total of digits in the string you entered is  22
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##======= RESTART: /Users/alieshghi/Desktop/lab 3/the sum of sequence.py =======
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##enter a sequence of numbers without space: 6789
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##the total of digits in the string you entered is  30
+\f0\i0 \cf0 \
+
+\f1\i \cf2 ##>>> 
+\f0\i0 \cf0 \
+}

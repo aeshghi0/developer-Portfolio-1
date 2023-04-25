@@ -1,0 +1,16 @@
+LaunchTargetManager/configs/Assignment\ 2=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Coin\ Flip\ Lab\ 2\ CS1B=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Functions\ and\ Arrays\ Debug=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Lab10-\ ordered\ linked\ list=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Lab14=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/names\ in\ arrays=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=macosx
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Greatest Common Divisor,org.eclipse.launchbar.core.descriptorType.default\:functions and arrays(extera credit),org.eclipse.launchbar.core.descriptorType.default\:Functions and Arrays Debug,org.eclipse.launchbar.core.descriptorType.default\:Enumerated types,org.eclipse.launchbar.core.descriptorType.default\:post Pckage,org.eclipse.launchbar.core.descriptorType.default\:Assignment 3 - searching linked lists,org.eclipse.launchbar.core.descriptorType.default\:Coin Flip Lab 2 CS1B,org.eclipse.launchbar.core.descriptorType.default\:lab6-struct Debug,org.eclipse.launchbar.core.descriptorType.default\:Binary Search,org.eclipse.launchbar.core.descriptorType.default\:Assignment3(test run) Debug,org.eclipse.launchbar.core.descriptorType.default\:Lab10- ordered linked list,org.eclipse.launchbar.core.descriptorType.default\:names in arrays,org.eclipse.launchbar.core.descriptorType.default\:Assignment3(test run) Debug (1),org.eclipse.launchbar.core.descriptorType.default\:Lab12 - intro to OOP,org.eclipse.launchbar.core.descriptorType.default\:Assignment 2,org.eclipse.launchbar.core.descriptorType.default\:Assignment 4,org.eclipse.launchbar.core.descriptorType.default\:Lab 13,org.eclipse.launchbar.core.descriptorType.default\:Lab14(test run),org.eclipse.launchbar.core.descriptorType.default\:Lab 14 - Farmer Pete's livestock Debug,org.eclipse.launchbar.core.descriptorType.default\:Lab14,org.eclipse.launchbar.core.descriptorType.default\:ASS 5
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Coin\ Flip\ Lab\ 2\ CS1B/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Coin\ Flip\ Lab\ 2\ CS1B/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Functions\ and\ Arrays\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Greatest\ Common\ Divisor/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Greatest\ Common\ Divisor/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

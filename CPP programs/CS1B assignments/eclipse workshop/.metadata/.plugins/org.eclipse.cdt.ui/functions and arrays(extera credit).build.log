@@ -1,0 +1,10 @@
+21:15:31 **** Incremental Build of configuration Debug for project functions and arrays(extera credit) ****
+make all 
+Building target: functions and arrays
+Invoking: MacOS X C++ Linker
+g++  -o "functions and arrays(extera credit)"  ./CalculateAvg.o ./InputFileRead.o ./main.o   
+Finished building target: functions and arrays
+ 
+
+21:15:31 Build Finished. 0 errors, 0 warnings. (took 136ms)
+

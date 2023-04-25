@@ -1,0 +1,44 @@
+14:32:54 **** Incremental Build of configuration Debug for project Lab14(test run) ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:73:8: warning: unused variable 'pigAge' [-Wunused-variable]
+        int             pigAge;   // IN & OUT - pig's age
+                        ^
+../main.cpp:74:8: warning: unused variable 'newAge' [-Wunused-variable]
+        int             newAge;   // IN & OUT - new age of pig or sheep
+                        ^
+../main.cpp:72:8: warning: unused variable 'sheepAge' [-Wunused-variable]
+        int             sheepAge; // IN & OUT - sheep's age
+                        ^
+../main.cpp:77:12: warning: unused variable 'tailType' [-Wunused-variable]
+        TailType        tailType; // Pig's tail
+                        ^
+../main.cpp:78:14: warning: unused variable 'woolType' [-Wunused-variable]
+        WoolType    woolType; // Sheep's wool
+                    ^
+../main.cpp:61:11: warning: unused variable 'index' [-Wunused-variable]
+        int             index;            // CALC - keeping track of the array lists
+                        ^
+../main.cpp:51:15: warning: unused variable 'LAB_NUM' [-Wunused-variable]
+        const int    LAB_NUM    = 12;
+                     ^
+../main.cpp:375:25: warning: variable 'ageAr' is uninitialized when used here [-Wuninitialized]
+                                        fluffy.SetSheepAge(ageAr);
+                                                           ^~~~~
+../main.cpp:75:13: note: initialize the variable 'ageAr' to silence this warning
+        int             ageAr;    // OUT - list of animal ages
+                             ^
+                              = 0
+8 warnings generated.
+Finished building: ../main.cpp
+ 
+Building target: Lab14
+Invoking: MacOS X C++ Linker
+g++  -o "Lab14(test run)"  ./Methods.o ./firstMenu.o ./functions.o ./main.o   
+Finished building target: Lab14
+ 
+
+14:32:55 Build Finished. 0 errors, 8 warnings. (took 499ms)
+

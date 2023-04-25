@@ -1,0 +1,81 @@
+Script started on Wed Jul  1 08:59:32 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ date
+Wed Jul  1 08:59:35 PDT 2020
+bash-3.2$ ls -l
+total 1240
+-rw-r--r--@ 1 alieshghi  staff    1049 Jun 29 20:14 date.cpp
+-rw-r--r--@ 1 alieshghi  staff    1066 Jun 29 20:31 date.h
+-rw-r--r--  1 alieshghi  staff   93380 Jun 29 20:31 date.o
+-rw-r--r--@ 1 alieshghi  staff    3170 Jun 30 17:59 employeeClass.cpp
+-rw-r--r--@ 1 alieshghi  staff    2844 Jun 30 18:00 employeeClass.h
+-rw-r--r--  1 alieshghi  staff  111328 Jun 30 18:01 employeeClass.o
+-rwxr-xr-x  1 alieshghi  staff  105100 Jul  1 08:52 hw04
+-rw-r--r--@ 1 alieshghi  staff   11408 Jul  1 08:57 hw04.cpp
+drwxr-xr-x@ 3 alieshghi  staff      96 Jun 23 17:33 hw04.dSYM
+-rw-r--r--  1 alieshghi  staff      43 Jul  1 08:59 hw04.scr
+-rw-r--r--@ 1 alieshghi  staff    1088 Jun 29 19:59 makefile
+-rw-r--r--@ 1 alieshghi  staff    3666 Jul  1 08:59 programmerClass.cpp
+-rw-r--r--@ 1 alieshghi  staff    1688 Jun 28 19:37 programmerClass.h
+-rw-r--r--  1 alieshghi  staff  131132 Jul  1 08:52 programmerClass.o
+-rw-r--r--@ 1 alieshghi  staff    1536 Jun 22 11:51 softwareArchitectClass.cpp
+-rw-r--r--@ 1 alieshghi  staff    1103 Jun 29 20:32 softwareArchitectClass.h
+-rw-r--r--  1 alieshghi  staff  109332 Jul  1 08:52 softwareArchitectClass.o
+bash-3.2$ male [K[K[Kke all
+g++  -std=c++14 -Wall -g -c programmerClass.cpp -o programmerClass.o
+g++  -std=c++14 -Wall -g hw04.cpp -o hw04 date.o employeeClass.o programmerClass.o softwareArchitectClass.o
+[1mhw04.cpp:53:7: [0m[0;1;35mwarning: [0m[1munused variable 'n' [-Wunused-variable][0m
+        int     n = 0;
+[0;1;32m                ^
+[0m1 warning generated.
+bash-3.2$ ls-l -l[C[C
+total 1200
+-rw-r--r--@ 1 alieshghi  staff    1049 Jun 29 20:14 date.cpp
+-rw-r--r--@ 1 alieshghi  staff    1066 Jun 29 20:31 date.h
+-rw-r--r--  1 alieshghi  staff   93380 Jun 29 20:31 date.o
+-rw-r--r--@ 1 alieshghi  staff    3170 Jun 30 17:59 employeeClass.cpp
+-rw-r--r--@ 1 alieshghi  staff    2844 Jun 30 18:00 employeeClass.h
+-rw-r--r--  1 alieshghi  staff  111328 Jun 30 18:01 employeeClass.o
+-rwxr-xr-x  1 alieshghi  staff  105100 Jul  1 08:59 hw04
+-rw-r--r--@ 1 alieshghi  staff   11408 Jul  1 08:57 hw04.cpp
+drwxr-xr-x@ 3 alieshghi  staff      96 Jun 23 17:33 hw04.dSYM
+-rw-r--r--  1 alieshghi  staff      43 Jul  1 08:59 hw04.scr
+-rw-r--r--@ 1 alieshghi  staff    1088 Jun 29 19:59 makefile
+-rw-r--r--@ 1 alieshghi  staff    3666 Jul  1 08:59 programmerClass.cpp
+-rw-r--r--@ 1 alieshghi  staff    1688 Jun 28 19:37 programmerClass.h
+-rw-r--r--  1 alieshghi  staff  131200 Jul  1 08:59 programmerClass.o
+-rw-r--r--@ 1 alieshghi  staff    1536 Jun 22 11:51 softwareArchitectClass.cpp
+-rw-r--r--@ 1 alieshghi  staff    1103 Jun 29 20:32 softwareArchitectClass.h
+-rw-r--r--  1 alieshghi  staff  109332 Jul  1 08:52 softwareArchitectClass.o
+bash-3.2$ ./hw04
+
+
+Phone number do not match
+
+
+
+Phone numbers are the same
+
+5years has been added to the original age of the employee
+
+New Age: 33
+selected employee's age has been incresed by 2
+
+New Age: 40
+
+Printing employee object: 
+
+Sally Designer
+87878
+38
+Architect
+
+
+
+bash-3.2$ exit
+exit
+
+Script done on Wed Jul  1 09:00:12 2020

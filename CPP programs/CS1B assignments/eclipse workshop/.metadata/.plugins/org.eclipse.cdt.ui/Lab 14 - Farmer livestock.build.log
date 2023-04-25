@@ -1,0 +1,6 @@
+16:07:20 **** Incremental Build of configuration Debug for project Lab 14 - Farmer livestock ****
+make all 
+make: Nothing to be done for `all'.
+
+16:07:20 Build Finished. 0 errors, 0 warnings. (took 84ms)
+

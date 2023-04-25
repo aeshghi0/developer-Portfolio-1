@@ -1,0 +1,54 @@
+/************************************************************
+* CS1C Corporation
+* _________________________________________________________
+* This program prints out the data from the list of the
+* employee of the corporation using the classes method and
+* Inheritance of the classes and passing the data through
+* the method functions of the class
+* _________________________________________________________
+* INPUT: N/A
+*
+* OUTPUT: table of the employees with their information
+* 		   (Name, Id, Phone #, Age, Gender, Job title,
+* 		   Salary, Hire date) and then the programmers
+* 		   information, same as the employees (with the
+* 		   additional information of Department #,
+* 		   supervisor's name, Raise Increase %, C++
+* 		   knowledge, and Java knowledge) and the Software
+* 		   Architect with the same information but
+*
+************************************************************/
+date class constructor called
+date class constructor called
+date class constructor called
+employee constructor called
+date class constructor called
+date class constructor called
+employee constructor called
+
+Normal softTester class constructor allocating ptr.
+date class constructor called
+date class constructor called
+employee constructor called
+
+Copy softtester class constructor allocating the ptr. 
+Software testers
+Name           ID       Phone #        Age    Gender   Job title      Salary         Hire date      
+--------------------------------------------------------------------------------------------------
+Joe Calculus   64879    949-555-1234    42      M      Math Wiz       $110000.00      8/31/2017
+Mary Algebra   76309    213-555-5555    22      F      Math Helper    $170123.00      5/8/2017
+Joe Trig       10192    714-703-1234    29      F      Math Contact   $200000.00      12/25/2016
+
+
+Name           Address                City           State  Zip Code 
+--------------------------------------------------------------------------------------------------
+Joe calCules   1234 Main Avenue       Laguna Niguel   CA      92677  
+Mary Algebra   3333 Marguerite Pkwy   Mission Viejo   CA      92646  
+jo Trig        9876 Elm Street        San Clemente    CA      92672  
+
+
+date class destructor called
+
+employee class destructor called
+
+SoftTester class destructor called

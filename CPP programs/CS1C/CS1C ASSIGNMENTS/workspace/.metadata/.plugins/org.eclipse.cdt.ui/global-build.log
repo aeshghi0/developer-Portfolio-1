@@ -1,0 +1,102 @@
+18:25:31 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+Building file: ../functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"functions.d" -MT"functions.o" -o "functions.o" "../functions.cpp"
+Finished building: ../functions.cpp
+ 
+Building target: HW1
+Invoking: MacOS X C++ Linker
+g++  -o "HW1"  ./functions.o ./main.o   
+Finished building target: HW1
+ 
+18:25:33 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+18:26:52 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+Building file: ../functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"functions.d" -MT"functions.o" -o "functions.o" "../functions.cpp"
+Finished building: ../functions.cpp
+ 
+Building target: HW1
+Invoking: MacOS X C++ Linker
+g++  -o "HW1"  ./functions.o ./main.o   
+Finished building target: HW1
+ 
+18:26:55 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+18:32:30 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+Building file: ../functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"functions.d" -MT"functions.o" -o "functions.o" "../functions.cpp"
+Finished building: ../functions.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:5:5: warning: unused variable 'ch' [-Wunused-variable]
+        in ch;
+           ^
+1 warning generated.
+Finished building: ../main.cpp
+ 
+Building target: HW1
+Invoking: MacOS X C++ Linker
+g++  -o "HW1"  ./functions.o ./main.o   
+Finished building target: HW1
+ 
+18:36:17 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+Building file: ../functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"functions.d" -MT"functions.o" -o "functions.o" "../functions.cpp"
+Finished building: ../functions.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:5:5: warning: unused variable 'ch' [-Wunused-variable]
+        in ch;
+           ^
+1 warning generated.
+Finished building: ../main.cpp
+ 
+Building target: HW1
+Invoking: MacOS X C++ Linker
+g++  -o "HW1"  ./functions.o ./main.o   
+Finished building target: HW1
+ 
+18:36:20 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+18:36:49 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+Building file: ../functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"functions.d" -MT"functions.o" -o "functions.o" "../functions.cpp"
+Finished building: ../functions.cpp
+ 
+Building target: HW1
+Invoking: MacOS X C++ Linker
+g++  -o "HW1"  ./functions.o ./main.o   
+Finished building target: HW1
+ 
+18:36:52 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+18:38:33 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+Building file: ../functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"functions.d" -MT"functions.o" -o "functions.o" "../functions.cpp"
+Finished building: ../functions.cpp
+ 
+Building target: HW1
+Invoking: MacOS X C++ Linker
+g++  -o "HW1"  ./functions.o ./main.o   
+Finished building target: HW1
+ 

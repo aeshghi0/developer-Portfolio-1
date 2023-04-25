@@ -1,0 +1,19 @@
+20:33:30 **** Incremental Build of configuration Debug for project Lab12 - intro to OOP ****
+make all 
+Building target: Lab12 - intro to OOP
+Invoking: MacOS X C++ Linker
+g++  -o "Lab12 - intro to OOP"  ./ChangeAge.o ./ChangeValue.o ./Display.o ./FirstMenu.o ./Initialize.o ./Menu.o ./PrintHeader.o ./main.o   
+Undefined symbols for architecture x86_64:
+  "Pig::~Pig()", referenced from:
+      _main in main.o
+  "Sheep1::~Sheep1()", referenced from:
+      _main in main.o
+  "Sheep2::~Sheep2()", referenced from:
+      _main in main.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Lab12 - intro to OOP] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+20:33:30 Build Failed. 2 errors, 0 warnings. (took 136ms)
+

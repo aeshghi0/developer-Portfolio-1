@@ -1,0 +1,188 @@
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project Assignment6 ****
+
+Nothing to build for project Assignment6
+16:16:31 **** Build of configuration Debug for project assignment6_eclipse ****
+make all 
+Building file: ../AcceptableHeight.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"AcceptableHeight.d" -MT"AcceptableHeight.o" -o "AcceptableHeight.o" "../AcceptableHeight.cpp"
+Finished building: ../AcceptableHeight.cpp
+ 
+Building file: ../AcceptableWeight.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"AcceptableWeight.d" -MT"AcceptableWeight.o" -o "AcceptableWeight.o" "../AcceptableWeight.cpp"
+Finished building: ../AcceptableWeight.cpp
+ 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:49:28: error: use of undeclared identifier 'TheAcceptableHeight'
+        acceptableHeight = TheAcceptableHeight(height);
+                           ^
+../main.cpp:53:28: error: use of undeclared identifier 'TheAcceptableWeight'
+        acceptableWeight = TheAcceptableWeight(weight);
+                           ^
+2 errors generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project Assignment6 ****
+
+Nothing to build for project Assignment6
+16:16:49 **** Incremental Build of configuration Debug for project assignment6_eclipse ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:49:28: error: use of undeclared identifier 'TheAcceptableHeight'
+        acceptableHeight = TheAcceptableHeight(height);
+                           ^
+../main.cpp:53:28: error: use of undeclared identifier 'TheAcceptableWeight'
+        acceptableWeight = TheAcceptableWeight(weight);
+                           ^
+2 errors generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge
+
+**** Build of configuration Debug for project Assignment6 ****
+
+Nothing to build for project Assignment6
+16:17:48 **** Incremental Build of configuration Debug for project assignment6_eclipse ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:49:28: error: use of undeclared identifier 'TheAcceptableHeight'
+        acceptableHeight = TheAcceptableHeight(height);
+                           ^
+../main.cpp:53:28: error: use of undeclared identifier 'TheAcceptableWeight'
+        acceptableWeight = TheAcceptableWeight(weight);
+                           ^
+2 errors generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+**** Build of configuration Debug for project sheepAge ****
+
+Nothing to build for project sheepAge

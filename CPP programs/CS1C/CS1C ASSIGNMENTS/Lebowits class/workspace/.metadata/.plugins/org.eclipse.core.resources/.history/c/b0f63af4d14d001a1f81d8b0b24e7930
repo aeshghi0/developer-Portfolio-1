@@ -1,0 +1,19 @@
+
+#ifndef HEADER_H_
+#define HEADER_H_
+
+#include<iostream>
+#include<iomanip>
+#include<string>
+
+#define PRDCT_SIZE 5
+#define PRICE_SIZE 5
+#define QNTY_SIZE  5
+
+using namespace std;
+
+
+
+
+
+#endif /* HEADER_H_ */

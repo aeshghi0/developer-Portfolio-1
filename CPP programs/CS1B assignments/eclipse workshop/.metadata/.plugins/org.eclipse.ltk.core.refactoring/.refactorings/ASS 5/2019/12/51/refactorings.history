@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;ASS 5/AS4 - InputFile.txt&apos; to &apos;InputFile.txt&apos;" description="Rename resource &apos;AS4 - InputFile.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="AS4 - InputFile.txt" name="InputFile.txt" stamp="1576534299936" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;ASS 5/InputFile.txt&apos; to &apos;inFile.txt&apos;" description="Rename resource &apos;InputFile.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="InputFile.txt" name="inFile.txt" stamp="1576543025122" updateReferences="true"/>
+</session>

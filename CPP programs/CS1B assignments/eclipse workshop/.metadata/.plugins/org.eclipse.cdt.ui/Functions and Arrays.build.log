@@ -1,0 +1,17 @@
+12:20:27 **** Incremental Build of configuration Debug for project Functions and Arrays ****
+make all 
+Building file: ../SearchName.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"SearchName.d" -MT"SearchName.o" -o "SearchName.o" "../SearchName.cpp"
+../SearchName.cpp:20:16: error: unknown type name 'information'
+int SearchName(information personalData[],const int AR_SIZE)
+               ^
+../SearchName.cpp:49:21: error: use of undeclared identifier 'nameAr'
+                if (searchName == nameAr[index])
+                                  ^
+2 errors generated.
+make: *** [SearchName.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+12:20:27 Build Failed. 3 errors, 0 warnings. (took 339ms)
+

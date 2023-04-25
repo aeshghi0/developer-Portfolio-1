@@ -1,0 +1,26 @@
+
+#ifndef HEADER_H_
+#define HEADER_H_
+
+#include<iostream>
+#include<iomanip>
+#include<string>
+using namespace std;
+
+#define SIZE 5
+
+
+//definition of inventory structure
+typedef struct inventory
+{
+	string 	eqpName;
+	double 	price;
+	int		quantity;
+}inventory;
+
+
+
+void display(inventory *inv);
+
+
+#endif /* HEADER_H_ */

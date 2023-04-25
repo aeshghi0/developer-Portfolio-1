@@ -1,0 +1,6 @@
+18:32:14 **** Incremental Build of configuration Debug for project lab6-struct ****
+make all 
+make: Nothing to be done for `all'.
+
+18:32:14 Build Finished. 0 errors, 0 warnings. (took 82ms)
+

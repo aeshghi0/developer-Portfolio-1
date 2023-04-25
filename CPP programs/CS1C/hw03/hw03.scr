@@ -1,0 +1,100 @@
+Script started on Mon Jun 22 11:54:15 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ date
+Mon Jun 22 11:54:19 PDT 2020
+bash-3.2$ ls -l
+total 12136
+-rw-r--r--  1 alieshghi  staff  5830252 Jun 17 14:00 employeeClass
+-rw-r--r--@ 1 alieshghi  staff     2902 Jun 22 11:38 employeeClass.cpp
+-rw-r--r--@ 1 alieshghi  staff     2231 Jun 18 21:51 employeeClass.h
+-rw-r--r--@ 1 alieshghi  staff   114176 Jun 22 11:50 employeeClass.o
+-rw-r--r--@ 1 alieshghi  staff     9734 Jun 22 11:49 hw03.cpp
+drwxr-xr-x@ 3 alieshghi  staff       96 Jun 22 11:23 hw03.dSYM
+-rw-r--r--@ 1 alieshghi  staff       43 Jun 22 11:54 hw03.scr
+-rw-r--r--@ 1 alieshghi  staff      963 Jun 22 11:12 makefile
+-rw-r--r--@ 1 alieshghi  staff     1885 Jun 22 11:53 programmerClass.cpp
+-rw-r--r--@ 1 alieshghi  staff     1321 Jun 18 21:48 programmerClass.h
+-rw-r--r--  1 alieshghi  staff   108876 Jun 22 11:50 programmerClass.o
+-rw-r--r--@ 1 alieshghi  staff     1536 Jun 22 11:51 softwareArchitectClass.cpp
+-rw-r--r--@ 1 alieshghi  staff     1105 Jun 22 11:22 softwareArchitectClass.h
+-rw-r--r--  1 alieshghi  staff   108080 Jun 22 11:50 softwareArchitectClass.o
+bash-3.2$ make all
+g++  -std=c++14 -Wall -g -c programmerClass.cpp -o programmerClass.o
+g++  -std=c++14 -Wall -g -c softwareArchitectClass.cpp -o softwareArchitectClass.o
+g++  -std=c++14 -Wall -g hw03.cpp -o hw03 employeeClass.o programmerClass.o softwareArchitectClass.o
+[1mhw03.cpp:51:6: [0m[0;1;35mwarning: [0m[1munused variable 'n' [-Wunused-variable][0m
+        int n = 0;
+[0;1;32m            ^
+[0m1 warning generated.
+bash-3.2$ ls -l
+total 12328
+-rw-r--r--  1 alieshghi  staff  5830252 Jun 17 14:00 employeeClass
+-rw-r--r--@ 1 alieshghi  staff     2902 Jun 22 11:38 employeeClass.cpp
+-rw-r--r--@ 1 alieshghi  staff     2231 Jun 18 21:51 employeeClass.h
+-rw-r--r--@ 1 alieshghi  staff   114176 Jun 22 11:50 employeeClass.o
+-rwxr-xr-x  1 alieshghi  staff    94436 Jun 22 11:54 hw03
+-rw-r--r--@ 1 alieshghi  staff     9734 Jun 22 11:49 hw03.cpp
+drwxr-xr-x@ 3 alieshghi  staff       96 Jun 22 11:23 hw03.dSYM
+-rw-r--r--@ 1 alieshghi  staff     1750 Jun 22 11:54 hw03.scr
+-rw-r--r--@ 1 alieshghi  staff      963 Jun 22 11:12 makefile
+-rw-r--r--@ 1 alieshghi  staff     1885 Jun 22 11:53 programmerClass.cpp
+-rw-r--r--@ 1 alieshghi  staff     1321 Jun 18 21:48 programmerClass.h
+-rw-r--r--  1 alieshghi  staff   109552 Jun 22 11:54 programmerClass.o
+-rw-r--r--@ 1 alieshghi  staff     1536 Jun 22 11:51 softwareArchitectClass.cpp
+-rw-r--r--@ 1 alieshghi  staff     1105 Jun 22 11:22 softwareArchitectClass.h
+-rw-r--r--  1 alieshghi  staff   108732 Jun 22 11:54 softwareArchitectClass.o
+bash-3.2$ ./hw03
+Printing the client list Before the modification.
+Data:
+CS1C Employees
+Name           ID       Phone #        Age    Gender   Job title      Salary         Hire date      
+--------------------------------------------------------------------------------------------------
+
+
+                                        0                             0.00           0/0/0
+                                                  %0.00           No                    No
+                                                  %0.00            0
+Printing the client list After the modification.
+Data:
+CS1C Employees
+Name           ID       Phone #        Age    Gender   Job title      Salary         Hire date      
+--------------------------------------------------------------------------------------------------
+
+
+Jimmy Fallon   12345    949-555-1234    40      M      Comedian       100000.00      8/31/2014
+Stephan Colbert12346    310-555-5555    51      M      Comedian       70123.00       5/8/2015
+Games Corden   87654    703-703-1234    37      M      Talk show Host 900000.00      12/25/2014
+Katir Couric   77777    203-555-6789    58      F      News reporter  500500.00      3/1/2005
+
+
+Programmers:
+Name           ID       Phone #        Age    Gender   Job title      Salary         Hire date      
+--------------------------------------------------------------------------------------------------
+Sam Software   54321    819-123-4567    21      M      Programmer     223000.00      12/24/2011
+Mary Coder     65432    310-555-5555    28      F      Programmer     770123.00      2/8/2010
+
+
+Name          Department    Supervisor's Name     Raise %     C++ Knowledge      Java Knowledge
+--------------------------------------------------------------------------------------------------
+               5432122        Joe Boss            %4.00           Yes                   No
+               6543222        Mary Leader         %7.00           Yes                   Yes
+
+
+Software Architects:
+Name           ID       Phone #        Age    Gender   Job title      Salary         Hire date      
+--------------------------------------------------------------------------------------------------
+Alex Arch      88888    819-123-4444    31      M      Architect      323000.00      12/24/2018
+Sally Designer 87878    310-555-8888    38      F      Architect      870123.00      2/8/2013
+
+
+Name         Department     Supervisor's Name     Raise %     Years of experience
+--------------------------------------------------------------------------------------------------
+              5434222           Big Boss          %5.00            4
+              6543422           Big Boss          %8.00            11
+bash-3.2$ exit
+exit
+
+Script done on Mon Jun 22 11:55:08 2020

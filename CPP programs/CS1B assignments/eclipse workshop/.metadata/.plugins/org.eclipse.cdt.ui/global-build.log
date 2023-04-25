@@ -1,0 +1,938 @@
+23:32:55 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:179:41: warning: variable 'i' is uninitialized when used here [-Wuninitialized]
+                outFile << setw(18) << "MOVIE #: " << i << "Title: " << head -> title
+                                                      ^
+../Methods.cpp:168:9: note: initialize the variable 'i' to silence this warning
+        int                     i;
+                                 ^
+                                  = 0
+1 warning generated.
+Finished building: ../Methods.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+23:33:37 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+Finished building: ../Methods.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+23:33:41 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+make: Nothing to be done for `all'.
+23:42:02 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+Finished building: ../Methods.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+23:42:05 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+make: Nothing to be done for `all'.
+23:43:21 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:43:16: error: assigning to 'DVDNode *' from incompatible type 'DVDNode'; take the address with &
+                newDVDNode = newDVD;
+                             ^~~~~~
+                             &
+1 error generated.
+make: *** [Methods.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:43:32 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:43:16: error: assigning to 'DVDNode *' from incompatible type 'DVDNode'; take the address with &
+                newDVDNode = newDVD;
+                             ^~~~~~
+                             &
+1 error generated.
+make: *** [Methods.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:43:53 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+Finished building: ../Methods.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+23:48:34 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:46:10: error: member reference type 'DVDNode' is not a pointer; did you mean to use '.'?
+                newDVD -> next  = NULL;
+                ~~~~~~ ^~
+                       .
+1 error generated.
+make: *** [Methods.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:11:34 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:127:1: error: extraneous closing brace ('}')
+}
+^
+1 error generated.
+make: *** [Methods.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:11:35 **** Incremental Build of configuration Release for project Assignment 3 - searching linked lists ****
+make all 
+make: Nothing to be done for `all'.
+23:11:38 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:127:1: error: extraneous closing brace ('}')
+}
+^
+1 error generated.
+make: *** [Methods.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:11:51 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:127:1: error: extraneous closing brace ('}')
+}
+^
+1 error generated.
+make: *** [Methods.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:12:07 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+Finished building: ../Methods.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+23:12:11 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+make: Nothing to be done for `all'.
+23:14:30 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+In file included from ../Methods.cpp:1:
+In file included from ../MyHeader.h:20:
+../ClassHeader.h:31:12: error: unknown type name 'DVDNode'
+        void Push(DVDNode newDVD);
+                  ^
+../ClassHeader.h:33:2: error: unknown type name 'DVDNode'
+        DVDNode Pop();
+        ^
+../ClassHeader.h:37:2: error: unknown type name 'DVDNode'
+        DVDNode Peek() const;
+        ^
+../Methods.cpp:31:17: error: out-of-line definition of 'Push' does not match any declaration in 'StackList'
+void StackList::Push(DVDNode newDVD)
+                ^~~~
+../Methods.cpp:130:1: error: unknown type name 'DVDNode'
+DVDNode StackList::Pop()
+^
+../Methods.cpp:138:9: error: no viable conversion from returned value of type 'StackList::DVDNode' to function return type 'int'
+        return *searchPtr;
+               ^~~~~~~~~~
+../Methods.cpp:159:1: error: unknown type name 'DVDNode'
+DVDNode StackList::Peek() const
+^
+../Methods.cpp:161:9: error: no viable conversion from returned value of type 'StackList::DVDNode' to function return type 'int'
+        return *head;
+               ^~~~~
+8 errors generated.
+make: *** [Methods.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:21:47 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+Finished building: ../Methods.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+23:37:22 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+Finished building: ../Methods.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+23:37:23 **** Incremental Build of configuration Release for project Assignment 3 - searching linked lists ****
+make all 
+make: Nothing to be done for `all'.
+23:37:25 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+make: Nothing to be done for `all'.
+23:43:25 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+make: Nothing to be done for `all'.
+23:43:29 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+make: Nothing to be done for `all'.
+23:54:06 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:36:7: warning: unused variable 'found' [-Wunused-variable]
+        bool found;                             //Proc - lcv  varibale
+             ^
+../Methods.cpp:34:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:38:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:33:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+3 warnings generated.
+Finished building: ../Methods.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+23:54:12 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+make: Nothing to be done for `all'.
+23:55:38 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:34:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:36:7: warning: unused variable 'found' [-Wunused-variable]
+        bool found;                             //Proc - lcv  varibale
+             ^
+../Methods.cpp:38:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:33:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+3 warnings generated.
+Finished building: ../Methods.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+23:55:47 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+make: Nothing to be done for `all'.
+00:04:29 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:36:7: warning: unused variable 'found' [-Wunused-variable]
+        bool found;                             //Proc - lcv  varibale
+             ^
+../Methods.cpp:34:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:38:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:33:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+3 warnings generated.
+Finished building: ../Methods.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+00:07:38 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+make: Nothing to be done for `all'.
+00:07:41 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:36:7: warning: unused variable 'found' [-Wunused-variable]
+        bool found;                             //Proc - lcv  varibale
+             ^
+../Methods.cpp:34:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:38:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:33:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+3 warnings generated.
+Finished building: ../Methods.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+00:08:10 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:36:7: warning: unused variable 'found' [-Wunused-variable]
+        bool found;                             //Proc - lcv  varibale
+             ^
+../Methods.cpp:34:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:38:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:33:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+3 warnings generated.
+Finished building: ../Methods.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+00:08:13 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+make: Nothing to be done for `all'.
+00:09:45 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:34:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:36:7: warning: unused variable 'found' [-Wunused-variable]
+        bool found;                             //Proc - lcv  varibale
+             ^
+../Methods.cpp:38:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:33:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+3 warnings generated.
+Finished building: ../Methods.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+00:09:48 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+make: Nothing to be done for `all'.
+00:16:25 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:34:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:36:7: warning: unused variable 'found' [-Wunused-variable]
+        bool found;                             //Proc - lcv  varibale
+             ^
+../Methods.cpp:38:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:33:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+../Methods.cpp:222:8: error: cannot assign to non-static data member within const member function 'OutputList'
+                head = head -> next;
+                ~~~~ ^
+../Methods.cpp:143:17: note: member function 'MovieList::OutputList' is declared const here
+void MovieList::OutputList(string outFileName) const
+~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3 warnings and 1 error generated.
+make: *** [Methods.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:18:05 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:36:7: warning: unused variable 'found' [-Wunused-variable]
+        bool found;                             //Proc - lcv  varibale
+             ^
+../Methods.cpp:34:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:38:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:33:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+3 warnings generated.
+Finished building: ../Methods.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+00:18:09 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+make: Nothing to be done for `all'.
+00:35:34 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:34:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:36:7: warning: unused variable 'found' [-Wunused-variable]
+        bool found;                             //Proc - lcv  varibale
+             ^
+../Methods.cpp:38:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:33:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+3 warnings generated.
+Finished building: ../Methods.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+00:35:36 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+make: Nothing to be done for `all'.
+00:36:38 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:36:7: warning: unused variable 'found' [-Wunused-variable]
+        bool found;                             //Proc - lcv  varibale
+             ^
+../Methods.cpp:34:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:38:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:33:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+3 warnings generated.
+Finished building: ../Methods.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+00:37:13 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:34:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:37:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:33:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+2 warnings generated.
+Finished building: ../Methods.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+00:37:52 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:34:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:37:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:33:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+2 warnings generated.
+Finished building: ../Methods.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+00:37:55 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+make: Nothing to be done for `all'.
+00:40:23 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:34:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:37:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:33:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+../Methods.cpp:138:16: error: 'WordWrap' is a private member of 'MovieList'
+                plot = movie.WordWrap(ptr -> synopsis);
+                             ^
+../ClassHeader.h:82:9: note: declared private here
+        string WordWrap(string plot);
+               ^
+../Methods.cpp:172:16: error: 'WordWrap' is a private member of 'MovieList'
+                plot = movie.WordWrap(ptr -> synopsis);
+                             ^
+../ClassHeader.h:82:9: note: declared private here
+        string WordWrap(string plot);
+               ^
+2 warnings and 2 errors generated.
+make: *** [Methods.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:40:38 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:34:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:37:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:33:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+../Methods.cpp:138:16: error: 'WordWrap' is a private member of 'MovieList'
+                plot = movie.WordWrap(ptr -> synopsis);
+                             ^
+../ClassHeader.h:82:9: note: declared private here
+        string WordWrap(string plot);
+               ^
+2 warnings and 1 error generated.
+make: *** [Methods.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:41:22 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:34:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:37:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:33:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+../Methods.cpp:138:16: error: 'WordWrap' is a private member of 'MovieList'
+                plot = movie.WordWrap(ptr -> synopsis);
+                             ^
+../ClassHeader.h:82:9: note: declared private here
+        string WordWrap(string plot);
+               ^
+2 warnings and 1 error generated.
+make: *** [Methods.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:41:29 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:34:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:37:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:33:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+../Methods.cpp:138:16: error: 'WordWrap' is a private member of 'MovieList'
+                plot = movie.WordWrap(ptr -> synopsis);
+                             ^
+../ClassHeader.h:82:9: note: declared private here
+        string WordWrap(string plot);
+               ^
+2 warnings and 1 error generated.
+make: *** [Methods.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:41:42 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:34:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:37:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:33:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+2 warnings generated.
+Finished building: ../Methods.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+00:41:46 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+make: Nothing to be done for `all'.
+00:42:15 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+00:42:18 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+make: Nothing to be done for `all'.
+00:47:57 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:34:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:37:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:33:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+2 warnings generated.
+Finished building: ../Methods.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:25:7: error: no member named 'OutputList' in 'StackList'
+        list.OutputList(outFileName);
+        ~~~~ ^
+1 error generated.
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:48:10 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+12:07:39 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:34:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:37:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:33:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+../Methods.cpp:153:8: error: assigning to 'DVDNode *' from incompatible type 'DVDNode'; take the address with &
+        ptr = head;
+              ^~~~
+              &
+2 warnings and 1 error generated.
+make: *** [Methods.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:07:57 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:34:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:37:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:33:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+2 warnings generated.
+Finished building: ../Methods.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./main.o   
+Finished building target: ASS 5
+ 
+12:08:00 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+make: Nothing to be done for `all'.
+13:55:46 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+In file included from ../Methods.cpp:1:
+In file included from ../MyHeader.h:20:
+../ClassHeader.h:39:12: error: unknown type name 'DVDNode'
+        void Push(DVDNode newDVD);      //create a DVDNode, add the
+                  ^
+../ClassHeader.h:43:2: error: unknown type name 'DVDNode'
+        DVDNode Pop();                          //returns the node from the top of the list
+        ^
+../ClassHeader.h:52:2: error: unknown type name 'DVDNode'
+        DVDNode Peek() const;           //returns the node at the top of the list
+        ^
+../ClassHeader.h:57:2: error: unknown type name 'DVDNode'
+        DVDNode *head;                          //head pointer for the list
+        ^
+../Methods.cpp:44:17: error: out-of-line definition of 'Push' does not match any declaration in 'StackList'
+void StackList::Push(DVDNode newDVD)
+                ^~~~
+5 errors generated.
+make: *** [Methods.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:56:13 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:47:11: warning: unused variable 'searchPtr' [-Wunused-variable]
+        DVDNode *searchPtr;             //Calc       - node to go through the loop
+                 ^
+../Methods.cpp:50:3: warning: variable 'movPtr' is uninitialized when used here [-Wuninitialized]
+        *movPtr = newDVD;
+         ^~~~~~
+../Methods.cpp:46:17: note: initialize the variable 'movPtr' to silence this warning
+        DVDNode *movPtr;                //In & Calc  - node to input data
+                       ^
+                        = NULL
+2 warnings generated.
+Finished building: ../Methods.cpp
+ 
+Building file: ../PrintHeader.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"PrintHeader.d" -MT"PrintHeader.o" -o "PrintHeader.o" "../PrintHeader.cpp"
+../PrintHeader.cpp:9:10: warning: non-portable path to file '"MyHeader.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "myHeader.h"
+         ^~~~~~~~~~~~
+         "MyHeader.h"
+1 warning generated.
+Finished building: ../PrintHeader.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./PrintHeader.o ./main.o   
+Finished building target: ASS 5
+ 
+15:03:54 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:323:7: warning: unused variable 'i' [-Wunused-variable]
+        int             i;
+                        ^
+1 warning generated.
+Finished building: ../Methods.cpp
+ 
+Building file: ../PrintHeader.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"PrintHeader.d" -MT"PrintHeader.o" -o "PrintHeader.o" "../PrintHeader.cpp"
+../PrintHeader.cpp:9:10: warning: non-portable path to file '"MyHeader.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "myHeader.h"
+         ^~~~~~~~~~~~
+         "MyHeader.h"
+1 warning generated.
+Finished building: ../PrintHeader.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./PrintHeader.o ./main.o   
+Finished building target: ASS 5
+ 
+15:03:57 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+make: Nothing to be done for `all'.
+15:32:13 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+../Methods.cpp:332:7: warning: unused variable 'i' [-Wunused-variable]
+        int             i;
+                        ^
+1 warning generated.
+Finished building: ../Methods.cpp
+ 
+Building file: ../PrintHeader.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"PrintHeader.d" -MT"PrintHeader.o" -o "PrintHeader.o" "../PrintHeader.cpp"
+../PrintHeader.cpp:9:10: warning: non-portable path to file '"MyHeader.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "myHeader.h"
+         ^~~~~~~~~~~~
+         "MyHeader.h"
+1 warning generated.
+Finished building: ../PrintHeader.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./Methods.o ./PrintHeader.o ./main.o   
+Finished building target: ASS 5
+ 

@@ -1,0 +1,23 @@
+#Lab 4
+
+#input
+
+kk=input("Enter any character : ")
+
+#output
+
+if kk>='A' and kk<='Z' :
+    print("A UPPER case charcter was entered")
+elif kk>='a' and kk<='z':
+    print("A lower case charcter was entered")
+elif kk>='0' and kk<='9':
+    print("A number was entered")
+else :
+    print("Other characters")
+
+    
+##>>> 
+##========= RESTART: /Users/alieshghi/Desktop/Lab 2.Ali/SIKIM CO #4.py =========
+##Enter any character : C
+##A UPPER case charcter was entered
+##>>> 

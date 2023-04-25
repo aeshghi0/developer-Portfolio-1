@@ -1,0 +1,14 @@
+23:45:41 **** Incremental Build of configuration Debug for project Greatest Common Divisor ****
+make all 
+Building file: ../PrintHeaderFile.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"PrintHeaderFile.d" -MT"PrintHeaderFile.o" -o "PrintHeaderFile.o" "../PrintHeaderFile.cpp"
+../PrintHeaderFile.cpp:10:10: fatal error: 'MyHeader.h' file not found
+#include "MyHeader.h"
+         ^~~~~~~~~~~~
+1 error generated.
+make: *** [PrintHeaderFile.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+23:45:41 Build Failed. 2 errors, 0 warnings. (took 85ms)
+

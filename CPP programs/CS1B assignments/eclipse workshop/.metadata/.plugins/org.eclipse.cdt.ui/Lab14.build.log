@@ -1,0 +1,106 @@
+00:06:49 **** Incremental Build of configuration Debug for project Lab14 ****
+make all 
+Building file: ../Methods.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Methods.d" -MT"Methods.o" -o "Methods.o" "../Methods.cpp"
+In file included from ../Methods.cpp:10:
+In file included from ../MyHeader.h:19:
+../ClassHeader.h:136:28: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                string          nameAr[AR_SIZE] = {" "};
+                                                ^
+../ClassHeader.h:137:29: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                string          ageAr[AR_SIZE] = {" "};
+                                               ^
+../ClassHeader.h:138:28: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                WoolType        woolAr[AR_SIZE] = {LONG};
+                                                ^
+../ClassHeader.h:139:28: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                string          colorAr[AR_SIZE] = {" "};
+                                                 ^
+../ClassHeader.h:188:28: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                string          nameAr[AR_SIZE] = {"p"};
+                                                ^
+../ClassHeader.h:189:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                string          ageAr[AR_SIZE] = {"0"};
+                                               ^
+../ClassHeader.h:190:29: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                TailType        tailAr[AR_SIZE] = {STRAIGHT};
+                                                ^
+7 warnings generated.
+Finished building: ../Methods.cpp
+ 
+Building file: ../functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"functions.d" -MT"functions.o" -o "functions.o" "../functions.cpp"
+In file included from ../functions.cpp:10:
+In file included from ../MyHeader.h:19:
+../ClassHeader.h:136:28: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                string          nameAr[AR_SIZE] = {" "};
+                                                ^
+../ClassHeader.h:137:29: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                string          ageAr[AR_SIZE] = {" "};
+                                               ^
+../ClassHeader.h:138:28: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                WoolType        woolAr[AR_SIZE] = {LONG};
+                                                ^
+../ClassHeader.h:139:28: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                string          colorAr[AR_SIZE] = {" "};
+                                                 ^
+../ClassHeader.h:188:28: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                string          nameAr[AR_SIZE] = {"p"};
+                                                ^
+../ClassHeader.h:189:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                string          ageAr[AR_SIZE] = {"0"};
+                                               ^
+../ClassHeader.h:190:29: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                TailType        tailAr[AR_SIZE] = {STRAIGHT};
+                                                ^
+7 warnings generated.
+Finished building: ../functions.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:10:
+In file included from ../MyHeader.h:19:
+../ClassHeader.h:136:28: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                string          nameAr[AR_SIZE] = {" "};
+                                                ^
+../ClassHeader.h:137:29: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                string          ageAr[AR_SIZE] = {" "};
+                                               ^
+../ClassHeader.h:138:28: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                WoolType        woolAr[AR_SIZE] = {LONG};
+                                                ^
+../ClassHeader.h:139:28: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                string          colorAr[AR_SIZE] = {" "};
+                                                 ^
+../ClassHeader.h:188:28: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                string          nameAr[AR_SIZE] = {"p"};
+                                                ^
+../ClassHeader.h:189:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                string          ageAr[AR_SIZE] = {"0"};
+                                               ^
+../ClassHeader.h:190:29: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+                TailType        tailAr[AR_SIZE] = {STRAIGHT};
+                                                ^
+../main.cpp:91:9: warning: 4 enumeration values not handled in switch: 'InitSheep', 'InitPig', 'ChangeAge'... [-Wswitch]
+        switch(startOption)
+               ^
+../main.cpp:91:9: note: add missing switch cases
+        switch(startOption)
+               ^
+../main.cpp:51:15: warning: unused variable 'LAB_NUM' [-Wunused-variable]
+        const int    LAB_NUM    = 12;
+                     ^
+9 warnings generated.
+Finished building: ../main.cpp
+ 
+Building target: Lab14
+Invoking: MacOS X C++ Linker
+g++  -o "Lab14"  ./Methods.o ./functions.o ./main.o   
+Finished building target: Lab14
+ 
+
+00:06:50 Build Finished. 0 errors, 23 warnings. (took 1s.165ms)
+

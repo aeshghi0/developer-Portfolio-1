@@ -1,0 +1,6 @@
+23:37:23 **** Incremental Build of configuration Release for project Assignment 3 - searching linked lists ****
+make all 
+make: Nothing to be done for `all'.
+
+23:37:23 Build Finished. 0 errors, 0 warnings. (took 86ms)
+

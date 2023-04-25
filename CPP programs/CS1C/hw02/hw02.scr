@@ -1,0 +1,213 @@
+Script started on Mon Jun 15 18:07:53 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ date
+Mon Jun 15 18:08:00 PDT 2020
+bash-3.2$ ls -
+ls: -: No such file or directory
+bash-3.2$ ls -l
+total 464
+-rw-r--r--@ 1 alieshghi  staff    4787 Jun 14 19:10 cardDeckClass.cpp
+-rw-r--r--@ 1 alieshghi  staff    1426 Jun 14 18:22 cardDeckClass.h
+-rw-r--r--  1 alieshghi  staff  126564 Jun 15 18:05 cardDeckClass.o
+-rwxr-xr-x  1 alieshghi  staff   60568 Jun 15 18:05 hw02
+drwxr-xr-x@ 6 alieshghi  staff     192 Jun 15 18:06 hw02 3
+-rw-r--r--@ 1 alieshghi  staff    2318 Jun 14 19:24 hw02.cpp
+drwxr-xr-x@ 3 alieshghi  staff      96 Jun 14 18:28 hw02.dSYM
+-rw-r--r--  1 alieshghi  staff      43 Jun 15 18:07 hw02.scr
+-rw-r--r--@ 1 alieshghi  staff   20992 Jun 15 18:05 hw02.tar
+-rw-r--r--@ 1 alieshghi  staff     431 Jun 15 17:59 makefile
+bash-3.2$ make all
+make: Nothing to be done for `all'.
+bash-3.2$ ls -l
+total 464
+-rw-r--r--@ 1 alieshghi  staff    4787 Jun 14 19:10 cardDeckClass.cpp
+-rw-r--r--@ 1 alieshghi  staff    1426 Jun 14 18:22 cardDeckClass.h
+-rw-r--r--  1 alieshghi  staff  126564 Jun 15 18:05 cardDeckClass.o
+-rwxr-xr-x  1 alieshghi  staff   60568 Jun 15 18:05 hw02
+drwxr-xr-x@ 6 alieshghi  staff     192 Jun 15 18:06 hw02 3
+-rw-r--r--@ 1 alieshghi  staff    2318 Jun 14 19:24 hw02.cpp
+drwxr-xr-x@ 3 alieshghi  staff      96 Jun 14 18:28 hw02.dSYM
+-rw-r--r--  1 alieshghi  staff    1065 Jun 15 18:08 hw02.scr
+-rw-r--r--@ 1 alieshghi  staff   20992 Jun 15 18:05 hw02.tar
+-rw-r--r--@ 1 alieshghi  staff     431 Jun 15 17:59 makefile
+bash-3.2$ ./hw02
+The original Deck...
+Ace of Hearts
+2 of Hearts
+3 of Hearts
+4 of Hearts
+5 of Hearts
+6 of Hearts
+7 of Hearts
+8 of Hearts
+9 of Hearts
+10 of Hearts
+Jack of Hearts
+Queen of Hearts
+King of Hearts
+Ace of Diamonds
+2 of Diamonds
+3 of Diamonds
+4 of Diamonds
+5 of Diamonds
+6 of Diamonds
+7 of Diamonds
+8 of Diamonds
+9 of Diamonds
+10 of Diamonds
+Jack of Diamonds
+Queen of Diamonds
+King of Diamonds
+Ace of Clubs
+2 of Clubs
+3 of Clubs
+4 of Clubs
+5 of Clubs
+6 of Clubs
+7 of Clubs
+8 of Clubs
+9 of Clubs
+10 of Clubs
+Jack of Clubs
+Queen of Clubs
+King of Clubs
+Ace of Spades
+2 of Spades
+3 of Spades
+4 of Spades
+5 of Spades
+6 of Spades
+7 of Spades
+8 of Spades
+9 of Spades
+10 of Spades
+Jack of Spades
+Queen of Spades
+King of Spades
+
+
+<<<Shuffling the deck>>>
+Deck after one shuffle...
+Ace of Hearts
+Ace of Clubs
+2 of Hearts
+2 of Clubs
+3 of Hearts
+3 of Clubs
+4 of Hearts
+4 of Clubs
+5 of Hearts
+5 of Clubs
+6 of Hearts
+6 of Clubs
+7 of Hearts
+7 of Clubs
+8 of Hearts
+8 of Clubs
+9 of Hearts
+9 of Clubs
+10 of Hearts
+10 of Clubs
+Jack of Hearts
+Jack of Clubs
+Queen of Hearts
+Queen of Clubs
+King of Hearts
+King of Clubs
+Ace of Diamonds
+Ace of Spades
+2 of Diamonds
+2 of Spades
+3 of Diamonds
+3 of Spades
+4 of Diamonds
+4 of Spades
+5 of Diamonds
+5 of Spades
+6 of Diamonds
+6 of Spades
+7 of Diamonds
+7 of Spades
+8 of Diamonds
+8 of Spades
+9 of Diamonds
+9 of Spades
+10 of Diamonds
+10 of Spades
+Jack of Diamonds
+Jack of Spades
+Queen of Diamonds
+Queen of Spades
+King of Diamonds
+King of Spades
+
+
+<<<Shuffling the deck>>>
+<<<Shuffling the deck>>>
+<<<Shuffling the deck>>>
+<<<Shuffling the deck>>>
+<<<Shuffling the deck>>>
+<<<Shuffling the deck>>>
+<<<Shuffling the deck>>>
+Ace of Hearts
+2 of Hearts
+3 of Hearts
+4 of Hearts
+5 of Hearts
+6 of Hearts
+7 of Hearts
+8 of Hearts
+9 of Hearts
+10 of Hearts
+Jack of Hearts
+Queen of Hearts
+King of Hearts
+Ace of Diamonds
+2 of Diamonds
+3 of Diamonds
+4 of Diamonds
+5 of Diamonds
+6 of Diamonds
+7 of Diamonds
+8 of Diamonds
+9 of Diamonds
+10 of Diamonds
+Jack of Diamonds
+Queen of Diamonds
+King of Diamonds
+Ace of Clubs
+2 of Clubs
+3 of Clubs
+4 of Clubs
+5 of Clubs
+6 of Clubs
+7 of Clubs
+8 of Clubs
+9 of Clubs
+10 of Clubs
+Jack of Clubs
+Queen of Clubs
+King of Clubs
+Ace of Spades
+2 of Spades
+3 of Spades
+4 of Spades
+5 of Spades
+6 of Spades
+7 of Spades
+8 of Spades
+9 of Spades
+10 of Spades
+Jack of Spades
+Queen of Spades
+King of Spades
+
+
+7  shuffles needed to return the deck to its original form
+bash-3.2$ exit
+exit
+
+Script done on Mon Jun 15 18:08:40 2020

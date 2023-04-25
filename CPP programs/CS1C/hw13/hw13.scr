@@ -1,0 +1,51 @@
+Script started on Thu Jul 23 15:37:46 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ date
+Thu Jul 23 15:37:54 PDT 2020
+bash-3.2$ ls -l
+total 96
+-rwxr-xr-x@ 1 alieshghi  staff  28896 Jul 21 17:35 hw13
+-rw-r--r--@ 1 alieshghi  staff   4769 Jul 22 17:25 hw13.cpp
+-rw-r--r--  1 alieshghi  staff     43 Jul 23 15:37 hw13.scr
+-rw-r--r--@ 1 alieshghi  staff    645 Jul 21 17:33 makefile
+bash-3.2$ make all
+make: *** No rule to make target `Queue.o', needed by `hw13'.  Stop.
+bash-3.2$ ls -l
+total 96
+-rwxr-xr-x@ 1 alieshghi  staff  28896 Jul 21 17:35 hw13
+-rw-r--r--@ 1 alieshghi  staff   4769 Jul 22 17:25 hw13.cpp
+-rw-r--r--  1 alieshghi  staff     43 Jul 23 15:37 hw13.scr
+-rw-r--r--@ 1 alieshghi  staff    645 Jul 21 17:33 makefile
+bash-3.2$ ./hw13
+
+************************************** 
+*           Running HW13             * 
+*      Programmed by Ali Eshghi      * 
+*      CS1C July 16th, 2020          * 
+************************************** 
+
+Testing Queue implementation on string data type: 
+<The element a has been inserted successfully>
+<The element b has been inserted successfully>
+<The element c has been inserted successfully>
+<The element d has been inserted successfully>
+<The element e has been inserted successfully>
+Exception: *** <Queue is Full, no entry allowed> ***
+------------------------------------
+printing Queue: a b c d e 
+------------------------------------
+<Element a was removed from the list>
+<Element b was removed from the list>
+<Element c was removed from the list>
+<Element d was removed from the list>
+<Element e was removed from the list>
+Exception: *** <Queue is empty> ***
+<The Queue is empty... nothing to print
+Exception: *** <Queue is empty> ***
+bash-3.2$ exit
+exit
+
+Script done on Thu Jul 23 15:38:26 2020

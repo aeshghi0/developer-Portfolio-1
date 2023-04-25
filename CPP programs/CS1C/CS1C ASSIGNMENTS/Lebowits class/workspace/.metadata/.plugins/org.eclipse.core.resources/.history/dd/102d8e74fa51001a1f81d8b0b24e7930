@@ -1,0 +1,72 @@
+#include"Header.h"
+
+
+int main()
+{
+	inventory *inv = new inventory[SIZE];;
+	double total;
+	double tax;
+	vector<inventory> cart;
+
+
+
+	/*
+	inv[0] = {"Nike basketball shoes",179.99,25};
+	inv[1] = {"Under Armor T-shirt",29.99,88};
+	inv[2] = {"Brooks running shoes",121.44,13};
+	inv[3] = {"Asics running shoes",165.88,12};
+	inv[4] = {"Under Armor shorts",45.77,35};
+*/
+	inv[0].eqpName  = "Nike basketball shoes";
+	inv[0].price    = 179.99;
+	inv[0].quantity = 25;
+
+	inv[1].eqpName  = "Under Armor T-shirt";
+	inv[1].price    = 29.99;
+	inv[1].quantity = 88;
+
+	inv[2].eqpName  = "Brooks running shoes";
+	inv[2].price    = 121.44;
+	inv[2].quantity = 13;
+
+	inv[3].eqpName  = "Asics running shoes";
+	inv[3].price    = 165.88;
+	inv[3].quantity = 12;
+
+	inv[4].eqpName  = "Under Armor shorts";
+	inv[4].price    = 45.77;
+	inv[4].quantity = 35;
+
+	cout<<"*** Purchase bill *** "<<endl;
+	cout<<"Item No. Name of equipment Cost Quantity"<<endl;
+	cout<<"1. Nike basketball shoes $179.99 4 "<<endl;
+	cout<<"2. Under Armour T-shirt $ 29.99 5 "<<endl;
+	cout<<"3. Under Armour shorts $ 45.77 6 "<<endl;
+	cout<<"4. Asics running shoes $165.88 1 "<<endl;
+
+	total = 4 * 179.99 + 5 * 29.99 + 6 * 45.77 + 165.88;
+	cout<<" Total Cost: $"<< total << endl;
+
+	tax = total * 7.75/100;
+
+	cout << "Tax(7.75%) $" << tax << endl;
+
+	cout <<"Total cost $" << (total + tax) << endl;
+
+	cout << "Inventory before marks purchase:" << endl;
+	display(inv);
+
+	inv[0].quantity-=4;
+	inv[1].quantity-=5;
+	inv[4].quantity-=6;
+	inv[3].quantity-=1;
+
+	cout << "Inventory after marks purchase:" << endl;
+	display(inv);
+
+	delete []inv;
+
+	return 0;
+
+
+}

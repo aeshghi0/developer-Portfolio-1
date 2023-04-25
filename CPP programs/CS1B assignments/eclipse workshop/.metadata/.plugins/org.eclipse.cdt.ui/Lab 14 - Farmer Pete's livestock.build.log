@@ -1,0 +1,14 @@
+15:59:14 **** Incremental Build of configuration Debug for project Lab 14 - Farmer Pete's livestock ****
+make all 
+Building file: ../functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"functions.d" -MT"functions.o" -o "functions.o" "../functions.cpp"
+Finished building: ../functions.cpp
+ 
+/bin/sh: -c: line 0: unexpected EOF while looking for matching `''
+/bin/sh: -c: line 1: syntax error: unexpected end of file
+make: *** [Lab 14 - Farmer Pete's livestock] Error 2
+"make all" terminated with exit code 2. Build might be incomplete.
+
+15:59:14 Build Failed. 1 errors, 0 warnings. (took 458ms)
+

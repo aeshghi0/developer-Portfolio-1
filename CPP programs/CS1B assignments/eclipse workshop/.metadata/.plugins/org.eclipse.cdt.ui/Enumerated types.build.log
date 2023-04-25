@@ -1,0 +1,6 @@
+00:38:01 **** Incremental Build of configuration Debug for project Enumerated types ****
+make all 
+make: Nothing to be done for `all'.
+
+00:38:01 Build Finished. 0 errors, 0 warnings. (took 87ms)
+

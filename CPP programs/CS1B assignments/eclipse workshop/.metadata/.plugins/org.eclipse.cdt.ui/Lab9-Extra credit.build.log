@@ -1,0 +1,15 @@
+20:10:20 **** Incremental Build of configuration Debug for project Lab9-Extra credit ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Lab9-Extra credit
+Invoking: MacOS X C++ Linker
+g++  -o "Lab9-Extra credit"  ./main.o   
+Finished building target: Lab9-Extra credit
+ 
+
+20:10:21 Build Finished. 0 errors, 0 warnings. (took 505ms)
+

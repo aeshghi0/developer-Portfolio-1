@@ -1,0 +1,55 @@
+Script started on Thu Jun 25 12:03:50 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ date
+Thu Jun 25 12:03:52 PDT 2020
+bash-3.2$ ls -l
+total 144
+-rw-r--r--@ 1 alieshghi  staff    873 Jun 25 11:58 forLoop.cpp
+-rwxr-xr-x  1 alieshghi  staff  48528 Jun 25 11:41 hw06
+-rw-r--r--@ 1 alieshghi  staff   1577 Jun 25 12:02 hw06.cpp
+drwxr-xr-x@ 3 alieshghi  staff     96 Jun 25 11:04 hw06.dSYM
+-rw-r--r--@ 1 alieshghi  staff    695 Jun 25 12:03 hw06.h
+-rw-r--r--  1 alieshghi  staff     43 Jun 25 12:03 hw06.scr
+-rw-r--r--@ 1 alieshghi  staff    399 Jun 25 10:53 makefile
+-rw-r--r--@ 1 alieshghi  staff    813 Jun 25 11:55 recursion.cpp
+bash-3.2$ make all
+g++  -std=c++14 -Wall -g forLoop.cpp recursion.cpp hw06.cpp -o hw06
+bash-3.2$ ls -l
+total 144
+-rw-r--r--@ 1 alieshghi  staff    873 Jun 25 11:58 forLoop.cpp
+-rwxr-xr-x  1 alieshghi  staff  48528 Jun 25 12:04 hw06
+-rw-r--r--@ 1 alieshghi  staff   1577 Jun 25 12:02 hw06.cpp
+drwxr-xr-x@ 3 alieshghi  staff     96 Jun 25 11:04 hw06.dSYM
+-rw-r--r--@ 1 alieshghi  staff    695 Jun 25 12:03 hw06.h
+-rw-r--r--  1 alieshghi  staff     43 Jun 25 12:03 hw06.scr
+-rw-r--r--@ 1 alieshghi  staff    399 Jun 25 10:53 makefile
+-rw-r--r--@ 1 alieshghi  staff    813 Jun 25 11:55 recursion.cpp
+bash-3.2$ ./hw06
+Initializing the alphabet string...
+Reversing the alphaber using recursion: 
+Enter the start index: 11
+Enter the end index: 18
+abcdefghijksrqponmltuvwxyz
+Enter the start index: 4
+Enter the end index: 22
+abcdwvutsrqponmlkjihgfexyz
+Enter the start index: 0
+Enter the end index: 25
+zyxwvutsrqponmlkjihgfedcba
+Reversing the alphabet using loop: 
+Enter the start index: 11
+Enter the end index: 18
+abcdefghijksrqponmltuvwxyz
+Enter the start index: 4
+Enter the end index: 22
+abcdwvutsrqponmlkjihgfexyz
+Enter the start index: 0
+Enter the end index: 25
+zyxwvutsrqponmlkjihgfedcba
+bash-3.2$ exit
+exit
+
+Script done on Thu Jun 25 12:05:20 2020

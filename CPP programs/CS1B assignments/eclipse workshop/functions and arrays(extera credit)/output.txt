@@ -1,0 +1,8 @@
+Enter an integer (-999 to stop): 1
+Enter an integer (-999 to stop): 2
+Enter an integer (-999 to stop): 3
+Enter an integer (-999 to stop): 6
+Enter an integer (-999 to stop): 7
+Enter an integer (-999 to stop): 90
+Enter an integer (-999 to stop): -999
+1, 6, 33, 4, 6, 12, 8, 2.34, 13.78, 67.8, 2, 9, 69.42, 4.2, 18.1667

@@ -1,0 +1,15 @@
+21:07:55 **** Incremental Build of configuration Debug for project names in arrays ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: names in arrays
+Invoking: MacOS X C++ Linker
+g++  -o "names in arrays"  ./main.o   
+Finished building target: names in arrays
+ 
+
+21:07:56 Build Finished. 0 errors, 0 warnings. (took 446ms)
+

@@ -1,0 +1,490 @@
+**************************************************
+*  PROGRAMMED BY : Amirarsalan Valipour
+*  STUDENT ID    : 1103126
+*  CLASS         : CS1B –-> MW - 7:30-9:50
+*  LAB #14       : Inheritance, Overloading, & Redefining
+**************************************************
+
+MENU
+
+1 - Initialize Animals
+0 - Exit
+Enter selection: 1
+
+Setting up the animals...
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: 4
+
+NAME       AGE  WOOLTYPE  COLOR 
+---------- ---- ---------- ------ 
+Fluffy      1     Fine      White
+La La       3     Long      Black
+Maa         7     Medium    Brown
+
+
+NAME       AGE  TAILTYPE   
+---------- ---- ----------- 
+BigBoy      3     Straight  
+Mr.East     7     Corkscrew 
+Peggy       1     Curl Up   
+Chuchu      9     Curl Right
+
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: 1
+
+Are you sure you want to update your list (Y/N)? n
+
+Sheep have not been re-initialized!
+
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: 1
+
+Are you sure you want to update your list (Y/N)? y
+
+Setting up for Sheeps...
+
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: 4
+
+NAME       AGE  WOOLTYPE  COLOR 
+---------- ---- ---------- ------ 
+Fluffy      1     Fine      White
+La La       3     Long      Black
+Maa         7     Medium    Brown
+
+
+NAME       AGE  TAILTYPE   
+---------- ---- ----------- 
+BigBoy      3     Straight  
+Mr.East     7     Corkscrew 
+Peggy       1     Curl Up   
+Chuchu      9     Curl Right
+
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: 2
+
+Are you sure you want to update your list (Y/N)? 12
+**** 1 is an invalid entry ****
+**** Please input from your available choices ****
+
+Are you sure you want to update your list (Y/N)? 3
+**** 3 is an invalid entry ****
+**** Please input from your available choices ****
+
+Are you sure you want to update your list (Y/N)? f
+**** F is an invalid entry ****
+**** Please input from your available choices ****
+
+Are you sure you want to update your list (Y/N)? y
+
+Setting up for Pigs...
+
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: 4
+
+NAME       AGE  WOOLTYPE  COLOR 
+---------- ---- ---------- ------ 
+Fluffy      1     Fine      White
+La La       3     Long      Black
+Maa         7     Medium    Brown
+
+
+NAME       AGE  TAILTYPE   
+---------- ---- ----------- 
+BigBoy      3     Straight  
+Mr.East     7     Corkscrew 
+Peggy       1     Curl Up   
+Chuchu      9     Curl Right
+
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: 3
+
+Which animal type would you like to change (S/P)? q
+
+
+
+**** Q is an invalid entry****
+**** Please input a S or P ****
+
+Which animal type would you like to change (S/P)? s
+
+Sheep: 
+1 - Fluffy
+2 - La La
+3 - Maa
+
+Select the animal you'd like to change: 2
+
+New Age: 35
+
+
+
+**** The number 35 is an invalid entry ****
+**** Please input a number between 0 and 10 ****
+
+New Age: 12
+
+
+
+**** The number 12 is an invalid entry ****
+**** Please input a number between 0 and 10 ****
+
+New Age: -4
+
+
+
+**** The number -4 is an invalid entry ****
+**** Please input a number between 0 and 10 ****
+
+New Age: 5
+
+Changing La La's age to 5...
+
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: 4
+
+NAME       AGE  WOOLTYPE  COLOR 
+---------- ---- ---------- ------ 
+Fluffy      1     Fine      White
+La La       5     Long      Black
+Maa         7     Medium    Brown
+
+
+NAME       AGE  TAILTYPE   
+---------- ---- ----------- 
+BigBoy      3     Straight  
+Mr.East     7     Corkscrew 
+Peggy       1     Curl Up   
+Chuchu      9     Curl Right
+
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: 1
+
+Are you sure you want to update your list (Y/N)? y
+
+Setting up for Sheeps...
+
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: 4
+
+NAME       AGE  WOOLTYPE  COLOR 
+---------- ---- ---------- ------ 
+Fluffy      1     Fine      White
+La La       3     Long      Black
+Maa         7     Medium    Brown
+
+
+NAME       AGE  TAILTYPE   
+---------- ---- ----------- 
+BigBoy      3     Straight  
+Mr.East     7     Corkscrew 
+Peggy       1     Curl Up   
+Chuchu      9     Curl Right
+
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: -4
+
+
+
+**** The number -4 is an invalid entry ****
+**** Please input a number between 0 and 4 ****
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: fddf
+
+
+
+**** Please input a NUMBER between 0 and 4 ****
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: ss
+
+
+
+**** Please input a NUMBER between 0 and 4 ****
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: 5
+
+
+
+**** The number 5 is an invalid entry ****
+**** Please input a number between 0 and 4 ****
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: -1
+
+
+
+**** The number -1 is an invalid entry ****
+**** Please input a number between 0 and 4 ****
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: 12
+
+
+
+**** The number 12 is an invalid entry ****
+**** Please input a number between 0 and 4 ****
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: fc
+
+
+
+**** Please input a NUMBER between 0 and 4 ****
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: 4
+
+NAME       AGE  WOOLTYPE  COLOR 
+---------- ---- ---------- ------ 
+Fluffy      1     Fine      White
+La La       3     Long      Black
+Maa         7     Medium    Brown
+
+
+NAME       AGE  TAILTYPE   
+---------- ---- ----------- 
+BigBoy      3     Straight  
+Mr.East     7     Corkscrew 
+Peggy       1     Curl Up   
+Chuchu      9     Curl Right
+
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: 3
+
+Which animal type would you like to change (S/P)? p
+
+Pig: 
+1 - BigBoy
+2 - Mr.East
+3 - Peggy
+4 - Chuchu
+
+Select the animal you'd like to change: 6
+
+
+
+**** The number 6 is an invalid entry****
+
+**** Please input a number between 1 and 4 ****
+
+Select the animal you'd like to change: 23
+
+
+
+**** The number 23 is an invalid entry****
+
+**** Please input a number between 1 and 4 ****
+
+Select the animal you'd like to change: 53
+
+
+
+**** The number 53 is an invalid entry****
+
+**** Please input a number between 1 and 4 ****
+
+Select the animal you'd like to change: gfv
+
+
+
+**** Please input a NUMBER between 1 and 4 ****
+
+Select the animal you'd like to change: 3
+
+New Age: 23
+
+
+
+**** The number 23 is an invalid entry ****
+**** Please input a number between 0 and 10 ****
+
+New Age: 10
+
+Changing Peggy's age to 10...
+
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: 4
+
+NAME       AGE  WOOLTYPE  COLOR 
+---------- ---- ---------- ------ 
+Fluffy      1     Fine      White
+La La       3     Long      Black
+Maa         7     Medium    Brown
+
+
+NAME       AGE  TAILTYPE   
+---------- ---- ----------- 
+BigBoy      3     Straight  
+Mr.East     7     Corkscrew 
+Peggy       10    Curl Up   
+Chuchu      9     Curl Right
+
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: 4
+
+NAME       AGE  WOOLTYPE  COLOR 
+---------- ---- ---------- ------ 
+Fluffy      1     Fine      White
+La La       3     Long      Black
+Maa         7     Medium    Brown
+
+
+NAME       AGE  TAILTYPE   
+---------- ---- ----------- 
+BigBoy      3     Straight  
+Mr.East     7     Corkscrew 
+Peggy       10    Curl Up   
+Chuchu      9     Curl Right
+
+
+MAIN MENU
+
+1 - Re-Initialize Sheep
+2 - Re-Initialize Pigs
+3 - Change Age
+4 - Display
+0 - Exit
+Enter selection: 0

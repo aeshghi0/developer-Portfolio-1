@@ -1,0 +1,15 @@
+21:24:56 **** Incremental Build of configuration Debug for project Assignment3(test run) ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Assignment3
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment3(test run)"  ./CreatList.o ./DisplayList.o ./PrintHeader.o ./PrintMenu.o ./SearchActor.o ./SearchGenre.o ./SearchRate.o ./SearchTitle.o ./SearchYear.o ./main.o   
+Finished building target: Assignment3
+ 
+
+21:24:57 Build Finished. 0 errors, 0 warnings. (took 515ms)
+

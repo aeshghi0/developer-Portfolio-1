@@ -1,0 +1,15 @@
+01:31:01 **** Incremental Build of configuration Debug for project ASS 5 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: ASS 5
+Invoking: MacOS X C++ Linker
+g++  -o "ASS 5"  ./main.o   
+Finished building target: ASS 5
+ 
+
+01:31:02 Build Finished. 0 errors, 0 warnings. (took 449ms)
+

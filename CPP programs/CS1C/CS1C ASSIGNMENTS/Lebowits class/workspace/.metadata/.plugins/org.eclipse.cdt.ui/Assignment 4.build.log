@@ -1,0 +1,20 @@
+01:31:02 **** Incremental Build of configuration Debug for project Assignment 4 ****
+make all 
+Building file: ../ClassFunctions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ClassFunctions.d" -MT"ClassFunctions.o" -o "ClassFunctions.o" "../ClassFunctions.cpp"
+Finished building: ../ClassFunctions.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Assignment 4
+Invoking: MacOS X C++ Linker
+g++  -o "Assignment 4"  ./ClassFunctions.o ./main.o   
+Finished building target: Assignment 4
+ 
+
+01:31:02 Build Finished. 0 errors, 0 warnings. (took 753ms)
+

@@ -1,0 +1,14 @@
+#include"Header.h"
+
+void display(inventory *inv)
+{
+	cout << "Name of equipment\t Cost\t Quantity" << endl;
+
+	for(int i = 0; i < SIZE; i++)
+	{
+		cout << inv[i].eqpName << "\t";
+		cout << "$" << inv[i].price << "\t";
+		cout << inv[i].quantity << endl;
+	}
+}
+
