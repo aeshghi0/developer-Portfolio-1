@@ -1,28 +1,187 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
-    <title>Dynamic Directory Change</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Ali Eshghi</title>
+    <meta name="description" content="Programmer and Developer in California U.S.">
+    <!--<link rel="canonical" href="https://p5aholic.me"> -->
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Ali Eshghi">
+    <meta property="og:title" content="Ali Eshghi">
+    <meta property="og:description" content="Programmer and Developer in California U.S.">
+    <!-- <meta property="og:url" content="https://p5aholic.me"> -->
+    <!-- <meta property="og:image" content="https://p5aholic.me/assets/share-image.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="google" content="nositelinkssearchbox">
+    <meta name="google" content="notranslate"> -->
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="icon" href="/assets/favicon.png"> -->
+    <!-- <link rel="apple-touch-icon" href="/assets/favicon.png"> -->
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="#" onclick="loadPage('home')">Home</a></li>
-        <li><a href="#" onclick="loadPage('about')">About</a></li>
-        <li><a href="#" onclick="loadPage('contact')">Contact</a></li>
-      </ul>
-    </nav>
-    <div id="content">
-      <h1>Welcome to my dynamic directory change page!</h1>
-      <p>Click one of the links above to change the directory dynamically.</p>
+    <div id="EnterView">
+        <div class="_t1">Ali Eshghi</div>
+        <div class="_t2">Portfolio</div>
     </div>
 
-  <div class="dot"></div>
-	<div class="dot"></div>
-	<div class="dot"></div>
-	<div class="dot"></div>
-	<div class="dot"></div>
+    <div id="page">
 
+      <div id="background">
+        <canvas></canvas>
+      </div>
+
+      <div id="mask" class="mask">
+        <div class="mask-top"></div>
+        <div class="mask-bottom"></div>
+      </div>
+
+      <!-- Frames work fine -->
+      <div class="frame" id="Frame">
+        <div class="frame_line frame_line-left"></div>
+        <div class="frame_line frame_line-right"></div>
+        <div class="frame_line frame_line-top"></div>
+        <div class="frame_line frame_line-bottom"></div>
+      </div>
+
+      <div class="theme" id="Theme" x-data @click="$store.ui.toggleTheme()">
+        <div class="theme_color" :class="{ 'is-selected': $store.ui.theme === 'light' }">
+            <div class="_box"></div>
+            <div class="_text">Light</div>
+        </div>
+        <div class="theme_color" :class="{ 'is-selected': $store.ui.theme === 'dark' }">
+            <div class="_box"></div>
+            <div class="_text">Dark</div>
+        </div>
+      </div>
+
+      <header class="siteHeader" id="SiteHeader">
+        <h1 class="siteHeader_title">Ali Eshghi</h1>
+        <p class="siteHeader_label">Programmer and Developer</p>
+        <nav class="siteHeader_nav" x-data>
+            <ol>
+              <li :class="{ 'is-selected': $store.ui.currentPath === '/' }">
+                  <div class="_dot">&#x25cf;</div>
+                  <a class="_text" href="/">Home</a>
+              </li>
+              <li :class="{ 'is-selected': $store.ui.currentPath === '/projects/' }">
+                  <div class="_dot">&#x25cf;</div>
+                  <a class="_text" href="/projects/">Projects</a>
+              </li>
+              <li :class="{ 'is-selected': $store.ui.currentPath === '/info/' }">
+                  <div class="_dot">&#x25cf;</div>
+                  <a class="_text" href="/info/">Info</a>
+              </li>
+              <li :class="{ 'is-selected': $store.ui.currentPath === '/contact/' }">
+                  <div class="_dot">&#x25cf;</div>
+                  <a class="_text" href="/contact/">Contact</a>
+              </li>
+            </ol>
+        </nav>
+      </header>
+
+      <main class="content" id="content" data-scroll="area">
+        <div class="content_inner" data-scroll="target">
+          <section class="page" data-page="home">
+            <div class="page_content home">
+              <p class="home_aboutme">
+                  <span>Born in 1999</span>
+                  <span>in Isfahan, Iran.</span>
+                  <span>--------------</span>
+                  <span>-----------</span>
+                  <span>----------------</span>
+                  <span>--------------</span>
+                  <span>---------------</span>
+                  <span>------------</span>
+                  <span>----------------</span>
+                  <span>----------------</span>
+                  <span>---------------------</span>
+                  <span>------------------</span>
+                  <span>-----------------</span>
+                  <span>-----------.</span>
+              </p>
+            </div>
+          </section>
+          <section class="page" data-page="projects">
+            <div class="page_content project">
+              <div class="project_section">
+                <h2 class="project_heading">&#x25a0;Projects (Design &Develop)</h2>
+                <div class="project_list">
+                  <a class="project_item text-btn" href="" target="_blank" rel="noopener">
+                    <div class="project_title">“The game of life</div>
+                    <div class="project_info"> programming Assignment</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="page" data-page="info">
+            <div class="page_content info">
+              <div class="info_item info_item-1">
+                <div class="info_content">
+                  <ul>
+                    <li>
+                        <a class="text-btn" href="[twitter link]" target="_blank" rel="noopener">Twitter ↗</a>
+                    </li>
+                    <li>
+                        <a class="text-btn" href="[Instagram link]" target="_blank" rel="noopener">Instagram ↗</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!--<div class="info_item info_item-2">
+                  <div class="info_content">
+                      <ul>
+                          <li>
+                              <a class="text-btn" href="https://experiments.p5aholic.me" target="_blank" rel="noopener">experiments.p5aholic.me ↗</a>
+                          </li>
+                          <li>
+                              <a class="text-btn" href="https://playground.p5aholic.me" target="_blank" rel="noopener">playground.p5aholic.me ↗</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div> -->
+            <div class="info_item info_item-3">
+              <div class="info_content">
+                <ul>
+                    <li>
+                        <span class="is-light">
+                          [Institution]<br>
+                        </span>
+                        <span>[Award and achievement]</span>
+                    </li>
+                    <li>
+                        <span class="is-light">
+                          [Institution]<br>
+                        </span>
+                        <span>[Award and achievement]</span>
+                    </li>
+                    <li>
+                        <span class="is-light">
+                          [Institution]<br>
+                        </span>
+                        <span>[Award and achievement]</span>
+                    </li>
+               </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+         <section class="page" data-page="contact">
+           <div class="page_content contact">
+              <div class="contact_wrap">
+                  <a class="contact_text fa text-btn" href="[some link in farsi (or second link)]" target="_blank" rel="noopener">فرم تماس ↗</a>
+                  <a class="contact_text en text-btn" href="[some link in English]" target="_blank" rel="noopener">Contact Form ↗</a>
+              </div>
+            </div>
+          </section>
+<!--
     <script>
       function loadPage(page) {
         const xhttp = new XMLHttpRequest();
@@ -35,5 +194,8 @@
         xhttp.send();
       }
     </script>
+  -->
+  </main>
+    </div>
   </body>
 </html>
