@@ -232,11 +232,12 @@ ol,ul {
     }
 }
 
-@font-face {
+/*@font-face {
     font-family: "Neue Montreal";
     font-weight: 200;
     src: url("/assets/font/PPNeueMontreal-Thin.woff2") format("woff2")
 }
+
 
 @font-face {
     font-family: "Neue Montreal";
@@ -249,7 +250,7 @@ ol,ul {
     font-weight: 600;
     src: url("/assets/font/PPNeueMontreal-SemiBold.woff2") format("woff2")
 }
-
+*/
 html,body {
     height: 100%
 }
@@ -281,7 +282,7 @@ body {
     transition-duration: .9s;
     transition-timing-function: cubic-bezier(0.1, 0.4, 0.2, 1)
 }
-
+/*
 #EnterView {
     position: fixed;
     z-index: 9999;
@@ -307,6 +308,7 @@ body {
 #EnterView ._t2 {
     font-weight: 200
 }
+*/
 
 #Background {
     position: fixed;
@@ -329,7 +331,7 @@ body {
     overflow: hidden;
     pointer-events: none
 }
-
+/*
 .mask_top,.mask_bottom {
     position: absolute;
     left: 0;
@@ -708,3 +710,4 @@ body {
 .contact_text .fa {
     font-family: "Neue Montreal","Hiragino Sans",Meiryo,sans-serif
 }
+*/
