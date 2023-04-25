@@ -1,0 +1,5 @@
+lambda <- rgamma(10^5,5,2) 
+x <- rpois(10^5,lambda) 
+par(mfrow=c(1,2))
+hist(lambda[x==2],probability=T,xlim=c(0,10))
+hist(rgamma(10^5,7,3),probability=T,xlim=c(0,10))

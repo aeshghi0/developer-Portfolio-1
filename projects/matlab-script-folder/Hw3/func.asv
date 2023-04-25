@@ -1,0 +1,16 @@
+%max iter default = 100
+function c = func(f, a, b, tol, max_iter)
+    iter = 0;
+
+    while(iter <= max_iter) && (abs(b-a)/2 > tol)
+        c = (a + b)/2;
+
+        if(f(a) * f(c)) > 0
+            a = c;
+        else
+            b = c;
+        end
+
+        iter = iter + 1;
+    end
+end
